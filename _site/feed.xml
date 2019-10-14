@@ -4,10 +4,10 @@
     <title>Muyang Guo's personal blog</title>
     <description>Muyang created this blog website for recording his learnings in computer science and other things in lifestyle
 </description>
-    <link>muyangguo.netlify.com</link>
-    <atom:link href="muyangguo.netlify.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Oct 2019 14:36:36 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 14:36:36 -0400</lastBuildDate>
+    <link>https://muyangguo.netlify.com</link>
+    <atom:link href="https://muyangguo.netlify.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Oct 2019 14:44:27 -0400</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2019 14:44:27 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
   </channel>
