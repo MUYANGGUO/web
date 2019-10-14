@@ -1,1 +1,1 @@
-Sitemap: muyangguo.netlify.com./sitemap.xml
+Sitemap: muyangguo.netlify.com/sitemap.xml
