@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>muyangguo.netlify.com/2017/10/22/coloring-book/</loc>
-<lastmod>2017-10-22T00:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>muyangguo.netlify.com/2017/10/23/polaroid-williamsburg/</loc>
 <lastmod>2017-10-23T00:00:00-04:00</lastmod>
 </url>
@@ -21,15 +17,12 @@
 <loc>muyangguo.netlify.com/</loc>
 </url>
 <url>
-<loc>muyangguo.netlify.com/tag/squid/</loc>
+<loc>muyangguo.netlify.com/tag/dummy-text/</loc>
 </url>
 <url>
 <loc>muyangguo.netlify.com/tag/moon-drinking/</loc>
 </url>
 <url>
 <loc>muyangguo.netlify.com/tag/kale/</loc>
-</url>
-<url>
-<loc>muyangguo.netlify.com/tag/dummy-text/</loc>
 </url>
 </urlset>
