@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Barber Theme</title>
+    <title>Muyang Guo's Blog</title>
     <description>Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 </description>
     <link>http://barber.samesies.io</link>
     <atom:link href="http://barber.samesies.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Oct 2019 05:17:04 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 05:17:04 -0400</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2019 05:39:47 -0400</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2019 05:39:47 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
