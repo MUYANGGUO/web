@@ -6,7 +6,7 @@ date: 2019-01-01
 comments: false
 ---
     
-<center><a  href="https://www.linkedin.com/in/muyang-guo-445a3465/"><b>Muyang Guo</b></center>
+<center><a href="https://www.linkedin.com/in/muyang-guo-445a3465/"><b>Muyang Guo</b></a></center>
 
 ## Education:
 M.S in <b>Computational Science & Engineering</b> 2018-2020<br>M.S in <b>Mechanical Engineering</b> 2016-2018<br>B.S in <b>Mechanical Engineering</b> 2012-2015<br>@Georgia Institute of Technology <br>for all degree works<br>Atlanta, GA, US
