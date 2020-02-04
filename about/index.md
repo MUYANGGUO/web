@@ -6,7 +6,9 @@ date: 2019-01-01
 comments: false
 ---
     
-<center><a href="https://www.linkedin.com/in/muyang-guo-445a3465/"><b>linkedin: Muyang Guo</b></a></center>
+<center><a href="https://www.linkedin.com/in/muyang-guo-445a3465/"><b>linkedin: Muyang Guo</b></a>
+<a href="https://github.com/MUYANGGUO"><b>github</b></a>
+</center>
 
 ## Education:
 <center>
