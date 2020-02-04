@@ -4,7 +4,7 @@ bio:                'Muyang is a graduate from Georgia Institute of Technology, 
 description:        "Muyang acquired B.S and M.S degree in Mechanical Engineering from Georgia Tech and is currently pusuring another M.S degree in CComputational Science & Engineering"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/avatar.JPG'
 # background:         'assets/img/placeholder-big2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
