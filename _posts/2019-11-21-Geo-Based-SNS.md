@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "<"Hood---Mate"> V1, a Geo-based Recommendation Sys with SNS feature"
+title:  "Hood---Mate V1, a Geo-based Recommendation Sys with SNS feature"
 date:   2019-11-21
 excerpt: "Geo-based SNS, Residense/roommates/landlords Recommendation System, Multi-dimensional exploratory data visualization"
 project: true
