@@ -7,12 +7,12 @@ comments: false
 ---
     
 <center><a href="https://www.linkedin.com/in/muyang-guo-445a3465/"><b>linkedin: Muyang Guo</b></a>
-<a href="https://github.com/MUYANGGUO"><b>github</b></a>
+<a href="https://github.com/MUYANGGUO"><b> github page</b></a>
 </center>
 
 ## Education:
 <center>
-M.S in <b>Computational Science & Engineering</b> 2018-2020<br>M.S in <b>Mechanical Engineering</b> 2016-2018<br>B.S in <b>Mechanical Engineering</b> , Minor in <b>Japanese</b>2012-2015<br>Georgia Institute of Technology, Atlanta, GA <br>for all degree works<br></center>
+M.S in <b>Computational Science & Engineering</b> 2018-2020<br>M.S in <b>Mechanical Engineering</b> 2016-2018<br>B.S in <b>Mechanical Engineering</b> , Minor in <b>Japanese</b> 2012-2015<br>Georgia Institute of Technology, Atlanta, GA <br>for all degree works<br></center>
 
 ## Internship:
 <b>Uber ATG</b>
