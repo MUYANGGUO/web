@@ -10,7 +10,7 @@ comments: false
 
 ## Education:
 <center>
-M.S in <b>Computational Science & Engineering</b> 2018-2020<br>M.S in <b>Mechanical Engineering</b> 2016-2018<br>B.S in <b>Mechanical Engineering, Minor in <b>Japanese</b></b> 2012-2015<br>Georgia Institute of Technology, Atlanta, GA <br>for all degree works<br></center>
+M.S in <b>Computational Science & Engineering</b> 2018-2020<br>M.S in <b>Mechanical Engineering</b> 2016-2018<br>B.S in <b>Mechanical Engineering</b> , Minor in <b>Japanese</b>2012-2015<br>Georgia Institute of Technology, Atlanta, GA <br>for all degree works<br></center>
 
 ## Internship:
 <b>Uber ATG</b>
