@@ -7,11 +7,11 @@ tags: [Node.js, Javascript]
 comments: true
 ---
 
-:arrow_right: **Initialize the project with Node:**
+**Initialize the project with Node:**
 
 &ensp;`npm init`
 
-:arrow_right: **Install dependencies, packages:**
+**Install dependencies, packages:**
 
 &ensp;`npm install --save express body-parser`
 
