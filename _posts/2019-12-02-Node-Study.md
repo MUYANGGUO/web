@@ -3,7 +3,7 @@ layout: post
 title: "Collection of Node.js packages for my general web build workflow"
 date: 2019-12-02
 excerpt: "A collection of essential packages building web applications with node.js"
-tags: [node.js, javascript]
+tags: [Node.js, Javascript]
 comments: true
 ---
 
