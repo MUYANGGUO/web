@@ -11,7 +11,7 @@ comments: true
 
 &ensp;`npm init`
 
-**Install dependencies, packages:**
+**Install backend dependencies, packages (DB, API, Encrypt, etc.):**
 
 &ensp;`npm install --save express body-parser`
 
@@ -28,6 +28,14 @@ comments: true
 > nodemon, a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
 &ensp;[nodemon](https://nodemon.io/)
+
+---
+
+&ensp;`npm install graphql --save`
+
+> GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+
+&ensp;[graphQL](https://graphql.org/)
 
 ---
 
@@ -51,5 +59,15 @@ comments: true
 > JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
 
 &ensp;[JWT](https://jwt.io/)
+
+---
+
+**Install frontend dependencies, packages (React):**
+
+&ensp;`npm init react-app my-app`
+
+> Get react app template.
+
+&ensp;[React](https://reactjs.org/)
 
 ---
