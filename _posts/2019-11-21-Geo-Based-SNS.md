@@ -23,9 +23,8 @@ comments: true
 [![By MUYANG GUO](https://img.shields.io/badge/by-muyangguo-blue.svg)](https://github.com/MUYANGGUO) [![Licence](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](https://github.com/MUYANGGUO/6242/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/MUYANGGUO/6242.svg)](https://github.com/MUYANGGUO/6242/issues/) [![GitHub Stars](https://img.shields.io/github/stars/MUYANGGUO/6242.svg?style=social&label=Star)](https://github.com/MUYANGGUO/6242)[![GitHub Forks](https://img.shields.io/github/forks/MUYANGGUO/6242.svg?style=social&label=Fork)](https://github.com/MUYANGGUO/6242)
 
 
-# Geo-based SNS, 
-# Residense/roommates/landlords recommendation system
-# Multi-dimensional exploratory data visualization
+### Geo-based SNS, Residense/roommates/landlords recommendation system 
+#### Multi-dimensional exploratory data visualization
 
  
 ![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/title_log.png)
@@ -92,7 +91,7 @@ Direct to project wiki page to download progress documentations in PDF.
 
 ## Map Service
 
-- [Mapbox](http://mapbox.com/)
+- [Mapbox](https://mapbox.com/)
 
 ## Contributing
 
@@ -117,6 +116,6 @@ To be updated ... ...
 ## Demo
 [V1 Demo](https://www.youtube.com/watch?v=lmKRxIYy7Eo)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lmKRxIYy7Eo
-" target="_blank"><img src="http://img.youtube.com/vi/lmKRxIYy7Eo/0.jpg" 
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=lmKRxIYy7Eo
+" target="_blank"><img src="https://img.youtube.com/vi/lmKRxIYy7Eo/0.jpg" 
 alt="Demo V1"/></a>
