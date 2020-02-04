@@ -6,16 +6,16 @@ excerpt: "Some python reminder notes, will update randomly"
 tags: [Python]
 comments: true
 ---
-1. Some general data structure high-level explanation
+## 1. Some general data structure high-level explanation
 
-## Lists
+### Lists
 
 In Python, lists act as dynamic arrays, indexing and assigning to an index position, are operations both designed to be run in constant time, O(1);
 
 built-in range() function is most efficient. 
 
 
-## Dictionaries:
+### Dictionaries:
 
 Dictionaries are an implementation of a hash table. operate with keys and values. getting and setting items in dict is O(1);
 
@@ -89,7 +89,6 @@ import sys
 
 data = a list 
 size = sys.getsizeof(data)
-
 
 ```
 
