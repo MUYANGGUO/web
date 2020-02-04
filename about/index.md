@@ -23,7 +23,7 @@ Realistic Map building for simulation (Unreal Engine)<br>
 (Uber ATG Sim-Realism Team)<br>
 
 * Hardware Simulation Intern (Autonomous Driving)<br>
-Jan 2019 – May 2019,San Francisco Bay Area<br>
+Jan 2019 – May 2019, San Francisco Bay Area<br>
 Physics based Radar Sensor Modeling/Simulation/Reduced order simulation development.<br>
 Developed a reduced order simulation model for radar, utilizing ANSYS HFSS for various actor types RCS data acquisition, Matlab for realtime simulation.<br>
 (ANSYS HFSS SBR+, Matlab)<br>
@@ -32,7 +32,7 @@ Developed a reduced order simulation model for radar, utilizing ANSYS HFSS for v
 <b>Siemens Healthinner</b>
 
 * Mechanical Engineering Intern (R&D ITT LAB)<br>
-May 2016 – Aug 2016,Shanghai City, China<br>
+May 2016 – Aug 2016, Shanghai City, China<br>
 CT factory RFID system implementation.<br>
 C-arm Collision avoidance system prototype design.<br>
 Patient table safety improvement design.<br>
@@ -54,6 +54,6 @@ Medical physics, Medical device, CAD Design and Modeling<br>
 * Head TA of ME 2110 class<br> 
 Led TA team for course design, course teaching and competition event hosting for four semesters.<br>
 
+## [Projects](https://muyangguo.netlify.com//projects/)
 
-
-
+Please view the projects archive
