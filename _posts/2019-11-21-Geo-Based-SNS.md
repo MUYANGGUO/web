@@ -26,7 +26,7 @@ comments: true
 #  Geo-based SNS, Residense/roommates/landlords Recommendation System, Multi-dimensional exploratory data visualization
 
  
-![title_logo](https://raw.githubusercontent.com/MUYANGGUO/blob/master/readme_images/title_log.png)
+![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/titl_log.png)
 
 
 ## Project <"Hood---Mate"> V1
@@ -52,9 +52,9 @@ Direct to project wiki page to download progress documentations in PDF.
  
 - Project Hightlights:
  
- ![image1](https://raw.githubusercontent.com/MUYANGGUO/6242/blob/master/readme_images/image1.png)
- ![image2](https://raw.githubusercontent.com/MUYANGGUO/6242/blob/master/readme_images/image2.png)
- ![image3](https://raw.githubusercontent.com/MUYANGGUO/6242/blob/master/readme_images/image3.png)
+ ![image1](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/image1.png)
+ ![image2](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/image2.png)
+ ![image3](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/image2.png)
 
 ## Datasets
 
