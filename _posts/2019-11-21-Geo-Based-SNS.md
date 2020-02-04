@@ -23,8 +23,11 @@ comments: true
 <b>with multi-dimensional exploratory data visualization<b>
 
  
-![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/title_log.png)
-
+<!-- ![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/title_log.png) -->
+<figure>
+	<a href="https://github.com/MUYANGGUO/6242"><img src="https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/title_log.png"></a>
+	<figcaption><a href="https://github.com/MUYANGGUO/6242" title="Github Link">Click to visit github</a>.</figcaption>
+</figure>
 
 ## Project <"Hood---Mate"> V1
 
