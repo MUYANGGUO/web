@@ -23,10 +23,11 @@ comments: true
 [![By MUYANG GUO](https://img.shields.io/badge/by-muyangguo-blue.svg)](https://github.com/MUYANGGUO) [![Licence](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](https://github.com/MUYANGGUO/6242/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/MUYANGGUO/6242.svg)](https://github.com/MUYANGGUO/6242/issues/) [![GitHub Stars](https://img.shields.io/github/stars/MUYANGGUO/6242.svg?style=social&label=Star)](https://github.com/MUYANGGUO/6242)[![GitHub Forks](https://img.shields.io/github/forks/MUYANGGUO/6242.svg?style=social&label=Fork)](https://github.com/MUYANGGUO/6242)
 
 
-#  Geo-based SNS, Residense/roommates/landlords Recommendation System, Multi-dimensional exploratory data visualization
+# Geo-based SNS, Residense/roommates/landlords Recommendation System
+# Multi-dimensional exploratory data visualization
 
  
-![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/titl_log.png)
+![title_logo](https://raw.githubusercontent.com/MUYANGGUO/6242/master/readme_images/title_log.png)
 
 
 ## Project <"Hood---Mate"> V1
