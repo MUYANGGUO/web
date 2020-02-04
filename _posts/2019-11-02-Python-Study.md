@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Notes"
-date: 2019-11-01
+date: 2019-11-02
 excerpt: "Some python reminder notes, will update randomly"
 tags: [Python]
 comments: true
