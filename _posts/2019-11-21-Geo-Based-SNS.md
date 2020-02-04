@@ -6,10 +6,6 @@ excerpt: "Geo-based SNS, Residense/roommates/landlords Recommendation System, Mu
 project: true
 tag:
 - deck.gl
-- SFPD incidents open data
-- Uber movement data
-- Yelp fusion API
-- Zillow open data
 - Javascript
 - Python
 - HTML
