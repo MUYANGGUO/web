@@ -117,4 +117,5 @@ And our program validated that the generated events mean and variance are very c
 
 In this way we can generate random discrete events using poisson distribution. 
 
-<p>Copyright &copy 2019 Muyang Guo</p>
+---
+Copyright 2019 Muyang Guo

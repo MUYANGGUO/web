@@ -118,3 +118,8 @@ To be updated ... ...
 <a href="https://www.youtube.com/watch?feature=player_embedded&v=lmKRxIYy7Eo
 " target="_blank"><img src="https://img.youtube.com/vi/lmKRxIYy7Eo/0.jpg" 
 alt="Demo V1"/></a>
+
+---
+Copyright 2019 Muyang Guo
+
+
