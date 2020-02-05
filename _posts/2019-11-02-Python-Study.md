@@ -98,3 +98,9 @@ size = sys.getsizeof(data)
 Amortized Analysis of a dynamic array, and why it is quite efficient: 
 
 [check the explanation here](http://www.cs.cmu.edu/afs/cs/academic/class/15451-s10/www/lectures/lect0203.pdf)
+
+<div class="footer">
+        Copyright &copy 2019 Muyang Guo
+</div>
+
+
