@@ -56,6 +56,6 @@ Medical physics, Medical device, CAD Design and Modeling<br>
 * Head TA of ME 2110 class<br> 
 Led TA team for course design, course teaching and competition event hosting for four semesters.<br>
 
-## [Projects](https://muyangguo.netlify.com/projects/)
+## [Projects](https://muyangguo.xyz/projects/)
 
 Please view the projects archive
