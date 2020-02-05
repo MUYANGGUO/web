@@ -110,7 +110,7 @@ saving ... 5000000_plot plot ...
 	<a href="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"><img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"></a>
 </figure>
 
-As can be seen from these histograms, as N increases, the distribution is more close to normal, but count/K is lower. Just like the probabilily distribution cited from the wikipedia page here:
+As can be seen from these histograms, as N increases, the distribution is more close to normal, but probability of K is actually lower (compare the count over the N). Just like the probabilily distribution cited from the wikipedia page here:
 <figure>
 	<a href="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"></a>
 </figure>
