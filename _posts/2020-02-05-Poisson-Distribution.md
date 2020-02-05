@@ -21,7 +21,6 @@ where $$e$$ is Euler's number, $$k = 0,1,2,...$$ , $$\lambda > 0$$. and $$\lambd
 For Discrete Events Simulations, as we would like to randomly generate discrete and independent events, poisson is a very good fit. <br>
 For example, I want to simulate a car flow, to see at certain traffic flow rate (how many cars can pass in an unit time), how the traffic will be. Before we getting to any queue model or other simulation models, we need to fisrt generate some timestamps for each car's arrival time. Poisson distribution can help on this step!<br>
 We could derive the $$\lambda$$ from this traffic flow rate. E.g. 500 car per hour. which is about 0.137 car per second. <br>
-
 And poisson distribution will gave us the probability distribution of $$k = 0,1,2 ... $$ events happening in each time interval that for this $$\lambda$$. This is exactly what we want to generate the events happening. 
 
 I write this function with `numpy` package for the implementation:
@@ -110,7 +109,7 @@ saving ... 5000000_plot plot ...
 	<a href="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"><img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"></a>
 </figure>
 
-As can be seen from these histograms, as N increases, t stays the same, thus $$\lambda$$ is increasing, the distribution is more close to normal, but probability of K is actually lower (compare the count over the N). Just like the probabilily distribution cited from the wikipedia page here:
+As can be seen from these histograms, as N increases,while t stays the same, thus $$\lambda$$ is increasing, the distribution is more close to normal, but probability of K is actually lower (compare the count over the N). Just like the probabilily distribution cited from the wikipedia page here:
 <figure>
 	<a href="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"></a>
 </figure>
