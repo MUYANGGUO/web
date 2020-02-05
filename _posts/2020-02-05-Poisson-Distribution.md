@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use poisson distribution to generate discrete events over a time for simulation"
+title: "Use poisson distribution to generate random discrete events over a time for simulation"
 date: 2020-02-05
 excerpt: "An example of how I use poisson distributed random variables to generate discrete events"
 tags: [Python]
@@ -110,8 +110,10 @@ saving ... 5000000_plot plot ...
 	<a href="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"><img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/5000000_plot.png"></a>
 </figure>
 
-As can be seen from these histograms, as N increases, the distribution is more close to normal, but count/K is lower. just like the probabilily distribution cited here:
+As can be seen from these histograms, as N increases, the distribution is more close to normal, but count/K is lower. Just like the probabilily distribution cited from the wikipedia page here:
 <figure>
 	<a href="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"></a>
 </figure>
-And our program validated that the generated events mean and variance are very close to our expectation $\lambda$
+And our program validated that the generated events mean and variance are very close to our expectation $$\lambda$$.
+
+In this way we can generate random discrete events using poisson distribution. 
