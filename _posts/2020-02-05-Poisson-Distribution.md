@@ -19,7 +19,7 @@ where $$e$$ is Euler's number, $$k = 0,1,2,...$$ , $$\lambda > 0$$. and $$\lambd
 
 ### Understanding implementation in Discrete Events Simulation:
 For Discrete Events Simulations, as we would like to randomly generate discrete and independent events, poisson is a very good fit. <br>
-For example, I want to simulate a car flow, to see at certain traffic flow rate (how many cars can pass in an unit time), how the traffic will be. <br>
+For example, I want to simulate a car flow, to see at certain traffic flow rate (how many cars can pass in an unit time), how the traffic will be. Before we getting to any queue model or other simulation models, we need to fisrt generate some timestamps for each car's arrival time. Poisson distribution can help on this step!<br>
 We could derive the $$\lambda$$ from this traffic flow rate. E.g. 500 car per hour. which is about 0.137 car per second. <br>
 
 And poisson distribution will gave us the probability distribution of $$k = 0,1,2 ... $$ events happening in each time interval that for this $$\lambda$$. This is exactly what we want to generate the events happening. 
