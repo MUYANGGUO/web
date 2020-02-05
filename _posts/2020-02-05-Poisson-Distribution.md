@@ -84,7 +84,8 @@ for n in n_list:
     timestamps, poisson = scene.poisson_generate_timestamps()
     name = str(n)+'_plot'
     save_poisson_hist_plot(poisson, name)
-{% endhightlight %}
+{% endhighlight %}
+
 And the outputs are:<br>
 ```
 Based on input parameters [500 events , 1 hr], expected rate is 0.139 events/second, 
