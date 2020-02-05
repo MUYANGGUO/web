@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use poisson distribution to generate discrete events over a time for simulation"
-date: 2019-11-01
+date: 2020-02-05
 excerpt: "An example of how I use poisson distributed random variables to generate discrete events"
 tags: [Python]
 comments: true
@@ -10,7 +10,7 @@ comments: true
 
 the probabily mass function of discrete random variable $X$ having a poisson distribution:
 $$f(k;\lambda) = \Pr(X = k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$
-where $e$ is Euler's number, $k = 0,1,2,...$ , $\lambda > 0$. and $\lambda = E(X) = Var(X)$. 
+where $$e$$ is Euler's number, $$k = 0,1,2,...$$ , $$\lambda > 0$$. and $$\lambda = E(X) = Var(X)$$. 
 
 ### Some key notes:
 1. k is the number of occurence of events occured in an interval, k is 0,1,2...
@@ -20,13 +20,13 @@ where $e$ is Euler's number, $k = 0,1,2,...$ , $\lambda > 0$. and $\lambda = E(X
 ### Understanding implementation in Discrete Events Simulation:
 For Discrete Events Simulations, as we would like to randomly generate discrete and independent events, poisson is a very good fit. <br>
 For example, I want to simulate a car flow, to see at certain traffic flow rate, aka, how many cars can pass in an unit time, how the traffic will be. <br>
-We could derive the $\lambda$ from this traffic flow rate. E.g. 500 car per hour. which is about 0.137 car per second. <br>
+We could derive the $$\lambda$$ from this traffic flow rate. E.g. 500 car per hour. which is about 0.137 car per second. <br>
 
-And poisson distribution will gave us the probability distribution of $k = 0,1,2 ... $ events happening in each time interval that for this $\lamda$. This is exactly what we want to generate the events happening. 
+And poisson distribution will gave us the probability distribution of $$k = 0,1,2 ... $$ events happening in each time interval that for this $$\lamda$$. This is exactly what we want to generate the events happening. 
 
 I write this function with `numpy` package for the implementation:
 
-```
+{% highlight python %}
 import os
 
 import numpy as np
@@ -84,7 +84,7 @@ for n in n_list:
     timestamps, poisson = scene.poisson_generate_timestamps()
     name = str(n)+'_plot'
     save_poisson_hist_plot(poisson, name)
-```
+{% endhightlight %}
 And the outputs are:<br>
 ```
 Based on input parameters [500 events , 1 hr], expected rate is 0.139 events/second, 
@@ -111,6 +111,6 @@ saving ... 5000000_plot plot ...
 
 As can be seen from these histograms, as N increases, the distribution is more close to normal, but count/K is lower. just like the probabilily distribution cited here:
 <figure>
-	<a href="https://en.wikipedia.org/wiki/Poisson_distribution#/media/File:Poisson_pmf.svg"><img src="https://en.wikipedia.org/wiki/Poisson_distribution#/media/File:Poisson_pmf.svg"></a>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg"></a>
 </figure>
 And our program validated that the generated events mean and variance are very close to our expectation $\lambda$
