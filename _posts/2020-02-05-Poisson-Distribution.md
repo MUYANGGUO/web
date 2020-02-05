@@ -6,10 +6,10 @@ excerpt: "An example of how I use poisson distributed random variables to genera
 tags: [Python]
 comments: true
 ---
-### poisson distribution:
+### Poisson distribution:
 
-the probabily mass function of discrete random variable $X$ having a poisson distribution:
-$$f(k;\lambda) = \Pr(X = k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$
+the probabily mass function of discrete random variable $$X$$ having a poisson distribution:<br>
+$$f(k;\lambda) = \Pr(X = k) = \frac{\lambda^{k}e^{-\lambda}}{k!}$$<br>
 where $$e$$ is Euler's number, $$k = 0,1,2,...$$ , $$\lambda > 0$$. and $$\lambda = E(X) = Var(X)$$. 
 
 ### Some key notes:
