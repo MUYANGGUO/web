@@ -63,7 +63,7 @@ However, it only tests the **dense linear system**, omitted a fact that there ar
 That is to say, the benchmark is too simple for all kinds of applications testing, but can be very predictive for machines or applications specificially for dense linear system problem solving. <br>
 
 ### Source code:
-The source code can be obtained from (http://www.netlib.org/benchmark/hpl/hpl-2.3.tar.gz) as a tar, and the dependency packages are BLAS (http://www.netlib.org/blas/blas-3.8.0.tgz) and mpi (https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.2.tar.gz). However, in practice, we directly loaded the module installed on PACE. The detailed process can be found in 1.4 answers, I have documented a step by step workflow for how to successfully install and run the benchmark.
+The source code can be obtained from (http://www.netlib.org/benchmark/hpl/hpl-2.3.tar.gz) as a tar, and the dependency packages are BLAS (http://www.netlib.org/blas/blas-3.8.0.tgz) and mpi (https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.2.tar.gz). However, in practice, we directly loaded the module installed on PACE. I have documented a step by step workflow for how to successfully install and run the benchmark.
 
 ### Dependencies and Enviroment
 The benchmark needs to be run on a computing node,
