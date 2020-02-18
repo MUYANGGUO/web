@@ -4,7 +4,7 @@ title: "Modeling and Analysis of Automotive Active Rear Wing"
 date: 2016-05-06
 excerpt: "Use Matlab to model and Sim a car's rear wing with a GUI interface for tunable aspects,  Use Solidworks for CAD, COMSOL for CFD analysis, a full modeling and simulation project"
 project: true
-tags: [Matlab, Modeling, Simulation]
+tags: [Matlab, Modeling & Simulation]
 comments: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Use poisson distribution to generate random discrete events over a time for simulation"
 date: 2020-02-05
 excerpt: "An example of how I use poisson distributed random variables to generate discrete events"
-tags: [Python]
+tags: [Python, Modeling & Simulation]
 comments: true
 ---
 ### Poisson distribution:
