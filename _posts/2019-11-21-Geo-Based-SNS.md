@@ -8,7 +8,7 @@ tag:
 - deck.gl
 - Javascript
 - Python
-- HTML,CSS
+- HTML & CSS
 - Data Analytics & Visualization
 - Firebase
 comments: true
