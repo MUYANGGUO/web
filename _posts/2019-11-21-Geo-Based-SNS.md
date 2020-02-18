@@ -8,10 +8,8 @@ tag:
 - deck.gl
 - Javascript
 - Python
-- HTML
-- CSS
-- Data Visualization
-- Data Analytics
+- HTML,CSS
+- Data Analytics & Visualization
 - Firebase
 comments: true
 ---
@@ -108,9 +106,6 @@ Direct to project wiki page to download progress documentations in PDF.
 
 This project is licensed under the GPL_3.0 License - see the [LICENSE.md](/LICENSE) file for details
 
-## Acknowledgments
-
-To be updated ... ...
 
 ## Demo
 [V1 Demo](https://www.youtube.com/watch?v=lmKRxIYy7Eo)
