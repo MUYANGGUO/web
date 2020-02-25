@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Discrete Events Simulation project for Tech Square Intersection Traffic with real world map visualization playback"
-date:   2019-02-24
+date:   2020-02-24
 excerpt: "A DES traffic simulation software package in python3, a visual playback web app in react.js using deck.gl trips layer"
 project: true
 tag:
@@ -15,7 +15,8 @@ comments: true
 
 > This is a course project of CSE6730 @ Georgia Tech. The time span for this project is 30 days. 
 
-[Visit the github repo of the project](https://github.com/MUYANGGUO/Simulation-DES)
+[Visit the github repo of the project](https://github.com/MUYANGGUO/Simulation-DES)<br>
+[Visit the playback demo of the project](https://youtu.be/nKSSbqjWDY8)
 
 [![Authors](https://img.shields.io/badge/authors:-Muyang_Guo,_Wei_Zhao,_Shushu_Zhao,_Wenyue_Wang-blue.svg)](https://github.com/MUYANGGUO/Simulation-DES/graphs/contributors/)
 [![Licence](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://github.com/MUYANGGUO/Simulation-DES/blob/master/LICENSE) 
