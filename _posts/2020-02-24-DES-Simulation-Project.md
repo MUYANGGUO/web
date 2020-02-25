@@ -154,7 +154,7 @@ The poisson distribution random genrator can be referred to my blog here which v
 <img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Initial_lane_3_Timestamps.png" width="400" height="400">
 </p>
 <p align="center">
-<img src="https://github.com/MUYANGGUO/Simulation-DES/master/outputs/Initial_lane_4_Timestamps.png" width="400" height="400">
+<img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Initial_lane_4_Timestamps.png" width="400" height="400">
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Initial_lane_5_Timestamps.png" width="400" height="400">
