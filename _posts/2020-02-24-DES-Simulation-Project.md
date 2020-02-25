@@ -128,7 +128,7 @@ In app.js line 75.
 ### Output Figures
 > Output figures will be saved under generated outputs folder at the end of the simulation process.
 
-**1. Initial Poisson Distribution of Events Generating**
+**1. Initial Poisson Distribution of Events Generating** <br>
 <!-- <p align="center">
 <img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Events_Poisson.png" width="200" height="200">
 </p> -->
