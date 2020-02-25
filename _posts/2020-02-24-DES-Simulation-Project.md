@@ -7,6 +7,7 @@ project: true
 tag:
 - deck.gl
 - Javascript
+- React
 - Python
 - HTML & CSS
 - Data Analytics & Visualization
@@ -26,7 +27,7 @@ comments: true
 ## Simulation-DES project for Tech Square Intersection Traffic
 > @Georgia Tech, Tech Square Intersection : [View on Google Map: Spring St NW & 5th St NW, Atlanta, GA](https://www.google.com/maps/place/5th+St+NW+%26+Spring+St+NW,+Atlanta,+GA+30308/@33.7768422,-84.3893492,19z/data=!3m1!4b1!4m5!3m4!1s0x88f50466f3bc5519:0x348198a2b5659d14!8m2!3d33.7768411!4d-84.388802)
 <p align="center">
-<img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/CrossSection.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/README_FILES/CrossSection.png" width="200" height="200">
 </p>
 
 ### Introduction
