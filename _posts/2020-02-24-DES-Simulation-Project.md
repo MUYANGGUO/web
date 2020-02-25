@@ -129,11 +129,11 @@ In app.js line 75.
 > Output figures will be saved under generated outputs folder at the end of the simulation process.
 
 **1. Initial Poisson Distribution of Events Generating**
-<p align="center">
+<!-- <p align="center">
 <img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Events_Poisson.png" width="200" height="200">
-</p>
-
-> The poisson distribution random genrator can be referred to my blog here which verifies our poisson generators outputs. [My Poisson Distribution Generator](https://muyangguo.xyz/poisson-distribution/)
+</p> -->
+The poisson distribution random genrator can be referred to my blog here which verifies our poisson generators outputs. <br>
+[My Poisson Distribution Generator and verification histograms](https://muyangguo.xyz/poisson-distribution/)
 
 **2. Initial Arrival Timestamps for actors**
 <p align="center">
