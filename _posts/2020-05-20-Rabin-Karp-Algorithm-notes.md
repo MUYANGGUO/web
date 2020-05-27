@@ -130,8 +130,8 @@ Example:
 
 So we also need O(m) to make sure the found result correct. So total time compelxity can be reduced to O(n + m) as we assume the collision happened rarely if the hashing function is designed well. 
 
-## 05 Solution Collections:
-<div  style="overflow:scroll; height: 500px;">
+## 05 Solution Collections: (Naive methods, and Rabin-Karp method collected)
+<div  style="overflow:scroll; height: 800px;">
 {% highlight python %}
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
