@@ -9,9 +9,10 @@ comments: true
 
 > This note is a learning note for the leetcode problem 28 - Implement strStr(). 
 
-#### 91 What is strstr() used for?
+## 01 What is strstr() used for?
 
 strstr() is a library function of "<cstring> (string.h)" in C++. 
+
 strstr() is a **searching** function that **locates the substring**. 
 
 ```cpp
@@ -25,7 +26,7 @@ str2 : C string containing the sequence of characters to match.
 
 Return Value: A pointer to the first occurrence in str1 of the entire sequence of characters specified in str2, or a null pointer if the sequence is not present in str1.
 
-#### 02 LeetCode Problem: 28 Implement strStr()
+## 02 LeetCode Problem: 28 Implement strStr()
 
 Implement strStr().
 
@@ -50,7 +51,7 @@ What should we return when needle is an empty string? This is a great question t
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
 
-#### 03 Naive Solution: O(mn) time complexity
+## 03 Naive Solution: O(mn) time complexity
 ``` python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
@@ -62,7 +63,7 @@ class Solution:
         return -1
 ```
 
-#### 04 Rabin-Karp Method: O(n + m) time complexity
+## 04 Rabin-Karp Method: O(n + m) time complexity
 
 Compared to the naive solution, it takes O(n) to scan the source str1 in the outer for loop, as the iteration advance, it will perform a check procedure, to scan the slice substring of length m, to compare with all the elements in target each time. Which takes O(nm) time complexity. 
 
@@ -89,12 +90,12 @@ For example,
 abc --> bcd is "abc" remove head "a" and add tail "d". 
 And "bc" was checked twice in the whole process. And optimization can be performed for this step.
 
-##### Optimization: Rabin-Karp Way, Rolling Hash method
+### Optimization: Rabin-Karp Way, Rolling Hash method
 [Rabin-Karp-Wiki](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
 
 > In computer science, the Rabin–Karp algorithm or Karp–Rabin algorithm is a string-searching algorithm created by Richard M. Karp and Michael O. Rabin (1987) that uses hashing to find an exact match of a pattern string in a text. It uses a rolling hash to quickly filter out positions of the text that cannot match the pattern, and then checks for a match at the remaining positions. Generalizations of the same idea can be used to find more than one match of a single pattern, or to find matches for more than one pattern.
 
-##### 1. Hash a string to int:
+### 1. Hash a string to int:
 
 Example:
 
@@ -104,7 +105,7 @@ Example:
     
     The reason we should use a large number, is to avoid collision of hashing. 
      
-##### 2. Rolling Hash:
+### 2. Rolling Hash:
 
 Example:
 
@@ -121,7 +122,7 @@ Example:
        - matched with the target hash value,
        - this step is O(1), instead of O(m)
 
-##### 3. Collision Check:
+### 3. Collision Check:
 
 **The algorithm only works if perfect hash can be done,**
 
@@ -129,7 +130,7 @@ Example:
 
 So we also need O(m) to make sure the found result correct. So total time compelxity can be reduced to O(n + m) as we assume the collision happened rarely if the hashing function is designed well. 
 
-#### 05 Solution Collections:
+## 05 Solution Collections:
 <div  style="overflow:scroll; height: 500px;">
 {% highlight python %}
 class Solution:
