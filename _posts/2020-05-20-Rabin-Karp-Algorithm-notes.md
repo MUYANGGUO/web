@@ -3,7 +3,7 @@ layout: post
 title: "Rabin-Karp Algorithm - A rolling hash method to locate substring"
 date: 2020-05-20
 excerpt: "A very useful concept for string-searhing problem. "
-tags: [python]
+tags: [Python]
 comments: true
 ---
 
