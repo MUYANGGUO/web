@@ -8,13 +8,13 @@ document.getElementById("canvas").appendChild(renderer.domElement);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0xF0F0F0,0.1);//0xF0F0F0
 
-var geometry = new THREE.BoxGeometry(1, 1, 1);
-var material = new THREE.MeshBasicMaterial({ 
-  color: 0xC0C0C0,//0x00ff00, 
-  wireframe: true,
-});
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
+// var geometry = new THREE.BoxGeometry(1, 1, 1);
+// var material = new THREE.MeshBasicMaterial({ 
+//   color: 0xC0C0C0,//0x00ff00, 
+//   wireframe: true,
+// });
+// var cube = new THREE.Mesh(geometry, material);
+// scene.add(cube);
 
 let stars, starGeo;
 
