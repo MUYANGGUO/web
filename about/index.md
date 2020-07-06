@@ -48,7 +48,7 @@ Sensor packages delivered and testing site: Caterpillar facilities, GT manufactu
 * Delta project<br>
 Aircraft composite (CFRP) joining and repair research. Lab fabrication CFRP samples for testing. FEA analysis tensile, bending, peeling. Defects modeling/simulations.<br>
 
-* Standing Breast CT device topology research <br>
+* Standing Breast CT device innovative design research <br>
 Medical physics, Medical device, CAD Design and Modeling<br>
 
 ## Graduate Teaching
