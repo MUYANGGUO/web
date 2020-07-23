@@ -369,3 +369,40 @@ All this is done for any sub-level being entered.
 .dl-menuopen li {
 	display: block
 }
+
+
+.sidenav {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.85;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+.sidenav h1 {
+	padding: 8px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+	// &:hover {
+	// 	color:red !important;
+	// 	text-decoration: none;
+    // }
+}
+  
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 22px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+  }
+  
+  @media screen and (max-width: 52em) {
+	.sidenav {display: None;}
+	.sidenav h1 {display: None;}
+  }
