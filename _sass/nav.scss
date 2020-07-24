@@ -16,7 +16,7 @@
 		top: 25px;
 		left: 25px;
 	}
-	button {
+	#navbutton {
 		top: 0;
 		left: 0;
 		background: $comp-color;
@@ -34,12 +34,12 @@
 			@include border-radius(3px,3px,3px,3px);
 		}
 	}
-	button:hover,
-	button.dl-active,
+	#navbutton:hover,
+	#navbutton.dl-active,
 	ul {
 		background: #aaa;
 	}
-	button:after {
+	#navbutton:after {
 		content: '';
 		position: absolute;
 		width: 68%;
@@ -51,9 +51,12 @@
 			0 10px 0 $white, 
 			0 20px 0 $white;
 	}
-	button.dl-active {
+	#navbutton.dl-active {
 		display: none;
 	}
+
+	
+
 	ul {
 		padding: 0;
 		list-style: none;
@@ -413,7 +416,7 @@ All this is done for any sub-level being entered.
 	.sidenav {display: None;}
 	.sidenav h1 {display: None;}
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1340px) {
 	.sidenav {width: 18%;}
 
   }
