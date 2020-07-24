@@ -375,7 +375,7 @@ All this is done for any sub-level being entered.
 	height: 100%;
 	width: 300px;
 	position: fixed;
-	z-index: 1;
+	z-index: 1000;
 	top: 0;
 	right: 0;
 	background-color: black;
@@ -390,6 +390,8 @@ All this is done for any sub-level being entered.
 	font-size: 20px;
 	color: white;
 	display: block;
+	z-index: 1000;
+
 	// &:hover {
 	// 	color:red !important;
 	// 	text-decoration: none;
