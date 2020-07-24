@@ -373,7 +373,7 @@ All this is done for any sub-level being entered.
 
 .sidenav {
 	height: 100%;
-	max-width: 12.5%;
+	width: 12.5%;
 	position: fixed;
 	z-index: 1000;
 	top: 0;
@@ -412,4 +412,8 @@ All this is done for any sub-level being entered.
   @media screen and (max-width: 800px) {
 	.sidenav {display: None;}
 	.sidenav h1 {display: None;}
+  }
+  @media screen and (min-width: 1200px) {
+	.sidenav {width: 18%;}
+
   }
