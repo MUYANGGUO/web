@@ -423,15 +423,15 @@ All this is done for any sub-level being entered.
 
 
 .footer {
-	position: absolute;
-	left: 0;
+	position: fixed;
+	right: 0;
 	bottom: 0;
-	height: 60px;
-	width: 100%;
+	height: auto;
+	width: auto;
 	background-color: black;
 	opacity: 0.85;
 	font-family:sans-serif ;
 	font-weight: 200;
 	color: white;
 	text-align: center;
- }
+ } 
