@@ -56,6 +56,15 @@ Medical physics, Medical device, CAD Design and Modeling<br>
 * Head TA of ME 2110 class<br> 
 Led TA team for course design, course teaching and competition event hosting for four semesters.<br>
 
+## Awards：
+
+[2020 ASME Hackathon](https://asmehackathon2020.github.io/) <b> 1st Place Winner</b>
+
+- Topic on "Machine Monitoring: Generating a Data-Driven Surrogate Model for Machine Damage Accumulation"
+- Highest Prediction Accuracy with a 0.92 "R^2" on holdout data
+- Highest Model Innovative Score for building a "LSTM + KNN + XGBoost" Hybrid Machine Learning Model using stacking method
+- [Hackathon Submission Archive](https://github.com/ASMEHackathon2020/CodeJackets)
+
 ## [Projects](https://muyangguo.xyz/projects/)
 
 Please view the projects archive
