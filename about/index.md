@@ -63,7 +63,7 @@ Led TA team for course design, course teaching and competition event hosting for
 - Topic "Machine Monitoring: Generating a Data-Driven Surrogate Model for Machine Damage Accumulation"
 - Highest Prediction Accuracy with a 0.92 "R^2" on holdout data
 - Highest Model Innovative Score for building a "LSTM + KNN + XGBoost" Hybrid Machine Learning Model using stacking method
-- [Hackathon Submission Archive](https://github.com/ASMEHackathon2020/CodeJackets)
+- [Hackathon Submission Archive](https://github.com/ASMEHackathon2020/CodeJackets), [Gatech Daily Digest News](https://www.me.gatech.edu/Georgia-Tech-Students-Win-ASME-Hackathon)
 
 ## [Projects](https://muyangguo.xyz/projects/)
 
