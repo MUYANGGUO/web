@@ -68,3 +68,7 @@ Led TA team for course design, course teaching and competition event hosting for
 ## [Projects](https://muyangguo.xyz/projects/)
 
 Please view the [projects archive](https://muyangguo.xyz/projects/)
+
+## My Resume
+
+<iframe src="https://docs.google.com/file/d/1CvRrbukGUNfd_bI8Wpy-xepLMrtYgHVb/preview" width="100%" height="800px"></iframe>
