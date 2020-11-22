@@ -3,7 +3,7 @@ layout: post
 title: "Simulation of tensile test on
 CFRP lap joint"
 date: 2017-04-26
-excerpt: "developed an finite element approach that performs the tensile
+excerpt: "Developed an finite element approach that performs the tensile
 test of the adhesive bonded CFRP materials numerically using FEA method, achieved a general understanding of failure conditions at bonded
 region under tension loads, and real cause of failure, investigated the response of tested part with respect to different material compositions and various defects in bond line"
 project: true
