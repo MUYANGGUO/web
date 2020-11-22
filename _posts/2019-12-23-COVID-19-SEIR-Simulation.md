@@ -8,6 +8,7 @@ tags:
 - Python
 - Data Analytics & Visualization
 - Modeling & Simulation
+project: true
 feature: https://drive.google.com/file/d/1v1_lKP8OgdXNnD7JaJsDPI8gA_jG-I89/view?usp=sharing
 comments: true
 ---
