@@ -66,7 +66,7 @@ Led TA team for course design, course teaching and competition event hosting for
 - Highest Model Innovative Score for building a "LSTM + KNN + XGBoost" Hybrid Machine Learning Model using stacking method with feature engineering
 - [Hackathon Submission Archive](https://github.com/ASMEHackathon2020/CodeJackets), [Gatech Daily Digest News](https://www.me.gatech.edu/Georgia-Tech-Students-Win-ASME-Hackathon)
 
-<img src="https://drive.google.com/uc?export=view&id=1XAqM16xDWspzBjMqtA1sRH0aq4-hQE7R" width="500" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1XAqM16xDWspzBjMqtA1sRH0aq4-hQE7R" width="250" height="300">
 
 ## [Projects](https://muyangguo.xyz/projects/):
 
