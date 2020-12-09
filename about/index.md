@@ -39,7 +39,8 @@ CT factory RFID system implementation.<br>
 C-arm Collision avoidance system prototype design.<br>
 Patient table safety improvement design.<br>
 
-## Graduate Research
+## Graduate Research:
+
 * DMDII project<br>
 Reconfigurable retrofit sensor packages development for legacy CNC, Lathe, Mill machines to enhance machine sensing and data sharing capability. (IIoT, Edge Computing, MQTT) <br>
 Sponsor companies: Caterpillar, Mazak, Cisco <br>
@@ -51,24 +52,26 @@ Aircraft composite (CFRP) joining and repair research. Lab fabrication CFRP samp
 * Standing Breast CT device innovative design research <br>
 Medical physics, Medical device, CAD Design and Modeling<br>
 
-## Graduate Teaching
+## Graduate Teaching:
 
 * Head TA of ME 2110 class<br> 
 Led TA team for course design, course teaching and competition event hosting for four semesters.<br>
 
-## Awards
+## Awards:
 
 [2020 ASME Hackathon](https://asmehackathon2020.github.io/) <b> 1st Place Winner</b>
 
 - Topic "Machine Monitoring: Generating a Data-Driven Surrogate Model for Machine Damage Accumulation"
 - Highest Prediction Accuracy with a 0.92 "R^2" on holdout data
-- Highest Model Innovative Score for building a "LSTM + KNN + XGBoost" Hybrid Machine Learning Model using stacking method
+- Highest Model Innovative Score for building a "LSTM + KNN + XGBoost" Hybrid Machine Learning Model using stacking method with feature engineering
 - [Hackathon Submission Archive](https://github.com/ASMEHackathon2020/CodeJackets), [Gatech Daily Digest News](https://www.me.gatech.edu/Georgia-Tech-Students-Win-ASME-Hackathon)
 
-## [Projects](https://muyangguo.xyz/projects/)
+<img src="https://drive.google.com/uc?export=view&id=1XAqM16xDWspzBjMqtA1sRH0aq4-hQE7R" width="500" height="600">
+
+## [Projects](https://muyangguo.xyz/projects/):
 
 Please view the [projects archive](https://muyangguo.xyz/projects/)
 
-## My Resume
+## My Resume:
 
 <iframe src="https://docs.google.com/file/d/1CvRrbukGUNfd_bI8Wpy-xepLMrtYgHVb/preview" width="100%" height="800px"></iframe>
