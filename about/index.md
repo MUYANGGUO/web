@@ -70,6 +70,8 @@ Led TA team for course design, course teaching and competition event hosting for
 
 Please view the [projects archive](https://muyangguo.xyz/projects/)
 
+There are also some fun/ developing phase projects archived here in my github organization [gamer-ai](https://gamer-ai.github.io/), focusing on 3D visuals & interactions.
+
 ## My Resume:
 
 <iframe src="https://docs.google.com/file/d/1CvRrbukGUNfd_bI8Wpy-xepLMrtYgHVb/preview" width="100%" height="800px"></iframe>
