@@ -3,9 +3,39 @@
   
     
     <url>
+      <loc>http://localhost:4000/Threejs-React-Cyber-LeetCode/</loc>
+      
+        <lastmod>2020-12-25T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/Rabin-Karp-Algorithm-notes/</loc>
       
         <lastmod>2020-05-20T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/Identifying-Disaster-On-Tweets/</loc>
+      
+        <lastmod>2020-04-21T00:00:00-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,6 +96,21 @@
       <loc>http://localhost:4000/MPI-Study/</loc>
       
         <lastmod>2020-02-01T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/COVID-19-SEIR-Simulation/</loc>
+      
+        <lastmod>2019-12-23T00:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -168,6 +213,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/Simulation-CFRP-Lap-Joint/</loc>
+      
+        <lastmod>2017-04-26T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/Matlab-Automotive-Wing-Modeling-Simulation/</loc>
       
         <lastmod>2016-05-06T00:00:00-04:00</lastmod>
@@ -186,7 +246,7 @@
     <url>
       <loc>http://localhost:4000/404</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +261,7 @@
     <url>
       <loc>http://localhost:4000/tags/</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,22 +276,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/posts/</loc>
-      
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -246,7 +291,7 @@
     <url>
       <loc>http://localhost:4000/projects/</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -274,9 +319,24 @@
   
     
     <url>
+      <loc>http://localhost:4000/posts/</loc>
+      
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -293,7 +353,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css.map</loc>
       
-        <lastmod>2020-07-24T15:02:34-04:00</lastmod>
+        <lastmod>2021-01-19T19:12:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
