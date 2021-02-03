@@ -59,7 +59,7 @@ Led TA team for course design, course teaching and competition event hosting for
 
 ## Awards:
 
-[2020 ASME Hackathon](https://asmehackathon2020.github.io/) <b> 1st Place Winner, 2000$</b>
+[2020 ASME Hackathon](https://asmehackathon2020.github.io/archive/IDETC2020/) <b> 1st Place Winner, 2000$</b>
 
 - Topic "Machine Monitoring: Generating a Data-Driven Surrogate Model for Machine Damage Accumulation"
 - Highest Prediction Accuracy with a 0.92 "R^2" on holdout data
