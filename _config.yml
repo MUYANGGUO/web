@@ -7,6 +7,7 @@ words_per_minute:   200
 logo:               'assets/img/avatar.png'
 background:         'assets/img/background.jpeg'
 organization:       'assets/img/organization.png'
+donate:             'assets/img/venmome.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://muyangguo.xyz

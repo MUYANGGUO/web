@@ -129,6 +129,12 @@ img {
 	height: 80px;
 	width: 80px;
 }
+.img-small-square {
+	border-radius: 4px;;
+	border: 1px solid $white;
+	height: 120px;
+	width: 120px;
+}
 .author-photo {
     background-color: $white;
 }
@@ -213,3 +219,6 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+
+
