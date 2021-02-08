@@ -1,6 +1,6 @@
 ---
 layout: leetcode-page
-title: "Leetcode 1 Two Sum"
+title: "Leetcode 1 Two Sum - Easy"
 date: 2021-01-01
 order: 1
 excerpt: ""
@@ -9,7 +9,7 @@ tags: [Leetcode]
 comments: true
 ---
 
-<h2> 1. Two Sum  </h2>
+<h2> 1. Two Sum - Easy </h2>
 [Go to Leetcode](https://leetcode.com/problems/two-sum/)
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.

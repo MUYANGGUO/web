@@ -12,6 +12,7 @@ comments: true
 - [Table of Contents](#table-of-contents)
   - [All Problems](#all-problems)
   - [Category - Hashmap](#category---hashmap)
+  - [Category - LinkedList](#category---linkedlist)
   - [Category - Two Pointers](#category---two-pointers)
 
 
@@ -19,20 +20,30 @@ comments: true
 ## Table of Contents 
 ### All Problems
 
-| Problems                                                     | Difficulty |
-| :----------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
+| Problems                                                                        | Difficulty |
+| :------------------------------------------------------------------------------ | :--------- |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                 | Easy       |
+| [LeetCode 2 Add Two Numbers](http://localhost:4000/Leetcode-2-Add-Two-Numbers/) | Medium     |
 
 --- 
 ### Category - Hashmap
 
-| Problems                                                     | Difficulty |
-| :----------------------------------------------------------- | :--------- |
+| Problems                                                        | Difficulty |
+| :-------------------------------------------------------------- | :--------- |
 | [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
+
+
+---
+
+### Category - LinkedList
+
+| Problems                                                                        | Difficulty |
+| :------------------------------------------------------------------------------ | :--------- |
+| [LeetCode 2 Add Two Numbers](http://localhost:4000/Leetcode-2-Add-Two-Numbers/) | Medium     |
 
 ---
 ### Category - Two Pointers
 
-| Problems                                                     | Difficulty |
-| :----------------------------------------------------------- | :--------- |
+| Problems                                                        | Difficulty |
+| :-------------------------------------------------------------- | :--------- |
 | [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
