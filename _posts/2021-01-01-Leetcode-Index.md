@@ -15,6 +15,7 @@ comments: true
   - [Category - LinkedList](#category---linkedlist)
   - [Category - Two Pointers](#category---two-pointers)
   - [Category - Binary Search](#category---binary-search)
+  - [Category - Dynamic Programming (DP)](#category---dynamic-programming-dp)
 
 
 
@@ -27,6 +28,7 @@ comments: true
 | [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/)                                                                | Medium     |
 | [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
 | [LeetCode 4 Median of Two Sorted Arrays](https://muyangguo.xyz/Leetcode-4-Median-Of-Two-Sorted-Arrays/)                                       | Hard       |
+| [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/)                                       | Medium      |
 
 --- 
 ### Category - Hashmap
@@ -60,3 +62,10 @@ comments: true
 | Problems                                                                                                                                      | Difficulty |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
 | [LeetCode 4 Median of Two Sorted Arrays](https://muyangguo.xyz/Leetcode-4-Median-Of-Two-Sorted-Arrays/)                                       | Hard       |
+
+---
+### Category - Dynamic Programming (DP)
+
+| Problems                                                                                                                                      | Difficulty |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/)                                       | Medium      |
