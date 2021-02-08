@@ -9,7 +9,7 @@ tags: [Leetcode]
 comments: true
 ---
 
-<h2> 4. Median of Two Sorted Arrays - Medium  </h2>
+<h2> 4. Median of Two Sorted Arrays - Hard  </h2>
 
 [Go to Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
