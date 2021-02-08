@@ -66,6 +66,34 @@ h3.title a {
 	}
 }
 
+.leetcode-list {
+    text-align: left;
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	li {
+		padding: 0px 0px;
+		margin: 0 10px;
+		text-decoration: none;
+		background: $white;
+		color: $color_shark;
+		a {
+			@include font-rem(16);
+			text-decoration: none;
+			color: $color_shark;
+			font-weight: bolder;
+            &:hover {
+                color: $red;
+            }
+		}
+		p {
+			font-weight: lighter;
+			@include font-rem(12);
+		}
+	}
+}
+
 // quotes
 blockquote {
 	font-family:$alt-font;
