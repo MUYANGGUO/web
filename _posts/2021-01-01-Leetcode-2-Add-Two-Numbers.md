@@ -37,6 +37,10 @@ outputs:
 </pre>
 
 <code>
+Solution:
+</code>
+
+<code>
 Method DummyNode + LinkedList Traversing, Space O(N), Time O(N)
 </code>
 

@@ -28,6 +28,10 @@ return [0, 1].
 </pre>
 
 <code>
+Solution:
+</code>
+
+<code>
 Method 1 Hashmap One Pass, Space O(N), Time O(N)
 </code>
 

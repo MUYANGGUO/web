@@ -20,30 +20,34 @@ comments: true
 ## Table of Contents 
 ### All Problems
 
-| Problems                                                                        | Difficulty |
-| :------------------------------------------------------------------------------ | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                 | Easy       |
-| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/) | Medium     |
+| Problems                                                                                                                                      | Difficulty |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/)                                                                | Medium     |
+| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
 
 --- 
 ### Category - Hashmap
 
-| Problems                                                        | Difficulty |
-| :-------------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
+| Problems                                                                                                                                      | Difficulty |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
 
 
 ---
 
 ### Category - LinkedList
 
-| Problems                                                                        | Difficulty |
-| :------------------------------------------------------------------------------ | :--------- |
+| Problems                                                                       | Difficulty |
+| :----------------------------------------------------------------------------- | :--------- |
 | [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/) | Medium     |
 
 ---
 ### Category - Two Pointers
 
-| Problems                                                        | Difficulty |
-| :-------------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
+| Problems                                                                                                                                      | Difficulty |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
+
