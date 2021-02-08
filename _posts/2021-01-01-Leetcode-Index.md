@@ -23,7 +23,7 @@ comments: true
 | Problems                                                                        | Difficulty |
 | :------------------------------------------------------------------------------ | :--------- |
 | [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                 | Easy       |
-| [LeetCode 2 Add Two Numbers](http://localhost:4000/Leetcode-2-Add-Two-Numbers/) | Medium     |
+| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/) | Medium     |
 
 --- 
 ### Category - Hashmap
@@ -39,7 +39,7 @@ comments: true
 
 | Problems                                                                        | Difficulty |
 | :------------------------------------------------------------------------------ | :--------- |
-| [LeetCode 2 Add Two Numbers](http://localhost:4000/Leetcode-2-Add-Two-Numbers/) | Medium     |
+| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/) | Medium     |
 
 ---
 ### Category - Two Pointers
