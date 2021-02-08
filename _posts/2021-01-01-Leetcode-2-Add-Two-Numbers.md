@@ -26,16 +26,18 @@ Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
 <pre>
+inputs:
 2 -> 4 -> 3
 5 -> 6 -> 4
 </pre>
 
 <pre>
+outputs:
 7 -> 0 -> 8
 </pre>
 
 <code>
-Method DummyNode + LinkedList Traversing, Space O(1), Time O(N)
+Method DummyNode + LinkedList Traversing, Space O(N), Time O(N)
 </code>
 
 ``` python
