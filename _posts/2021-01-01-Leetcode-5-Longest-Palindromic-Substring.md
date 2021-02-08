@@ -44,7 +44,7 @@ Output: "a"
 ```
 
 <code>
-Solution 1:
+Solution :
 </code>
 
 <code>
