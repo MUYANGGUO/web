@@ -3,6 +3,36 @@
   
     
     <url>
+      <loc>http://localhost:4000/Leetcode-Index/</loc>
+      
+        <lastmod>2021-01-01T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/Leetcode-1-Two-Sum/</loc>
+      
+        <lastmod>2021-01-01T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/Threejs-React-Cyber-LeetCode/</loc>
       
         <lastmod>2020-12-25T00:00:00-05:00</lastmod>
@@ -246,7 +276,7 @@
     <url>
       <loc>http://localhost:4000/404</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -261,7 +291,7 @@
     <url>
       <loc>http://localhost:4000/tags/</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -276,22 +306,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/projects/</loc>
-      
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -321,7 +336,37 @@
     <url>
       <loc>http://localhost:4000/posts/</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/leetcode/</loc>
+      
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/projects/</loc>
+      
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -336,7 +381,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -353,7 +398,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css.map</loc>
       
-        <lastmod>2021-01-19T19:17:58-05:00</lastmod>
+        <lastmod>2021-02-07T18:59:14-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -91,7 +91,8 @@
 			<!-- <li>
 				<a href="#">Tech Blogs</a>
 				<ul class="dl-submenu"> -->
-			<li><a href="{{ site.url }}/posts/">Tech Blogs</a></li>
+            <li><a href="{{ site.url }}/posts/">Tech Blogs</a></li>
+            
 				<!-- </ul>
 			</li> -->
 			{% for link in site.data.navigation %}
@@ -102,6 +103,7 @@
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
+          <li><a href="{{ site.url }}/leetcode/">LeetCode Solutions</a></li>
             <li><a href="{{ site.url }}/tags/">Tags Archive</a></li>
             <li><script async src="https://cse.google.com/cse.js?cx=000703603923980589510:t0yhdcd_f-u"></script>
                 <div class="gcse-search"></div>
