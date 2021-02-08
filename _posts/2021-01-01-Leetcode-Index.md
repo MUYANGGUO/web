@@ -21,18 +21,18 @@ comments: true
 
 | Problems                                                     | Difficulty |
 | :----------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://leetcode.com/problems/two-sum/) | Easy       |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
 
 --- 
 ### Category - Hashmap
 
 | Problems                                                     | Difficulty |
 | :----------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://leetcode.com/problems/two-sum/) | Easy       |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
 
 ---
 ### Category - Two Pointers
 
 | Problems                                                     | Difficulty |
 | :----------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://leetcode.com/problems/two-sum/) | Easy       |
+| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/) | Easy       |
