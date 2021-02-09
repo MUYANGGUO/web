@@ -33,6 +33,9 @@ comments: true
 | [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/)                                   | Medium     |
 | [LeetCode 6 ZigZag Conversion](https://muyangguo.xyz/Leetcode-6-ZigZag-Conversion/)                                                           | Medium     |
 | [LeetCode 7 Reverse Integer](https://muyangguo.xyz/Leetcode-7-Reverse-Integer/)                                                           | Easy     |
+| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/)                                                           | Medium     |
+| [LeetCode 9 Palindrome Number](https://muyangguo.xyz/Leetcode-9-Palindrome-Number/)                                                           | Easy     |
+| [LeetCode 10 Regular Expression Matching](https://muyangguo.xyz/Leetcode-10-Regular-Expression-Matching/)                                                           | Hard     |
 
 --- 
 
@@ -41,6 +44,7 @@ comments: true
 | Problems                                                                                                                                      | Difficulty |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
 | [LeetCode 6 ZigZag Conversion](https://muyangguo.xyz/Leetcode-6-ZigZag-Conversion/)                                                           | Medium     |
+| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/)                                                           | Medium     |
 
 ---
 ### Category - Hashmap
@@ -81,6 +85,7 @@ comments: true
 | Problems                                                                                                    | Difficulty |
 | :---------------------------------------------------------------------------------------------------------- | :--------- |
 | [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/) | Medium     |
+| [LeetCode 10 Regular Expression Matching](https://muyangguo.xyz/Leetcode-10-Regular-Expression-Matching/)                                                           | Hard     |
 
 ---
 
@@ -89,3 +94,5 @@ comments: true
 | Problems                                                                                                    | Difficulty |
 | :---------------------------------------------------------------------------------------------------------- | :--------- |
 | [LeetCode 7 Reverse Integer](https://muyangguo.xyz/Leetcode-7-Reverse-Integer/)                                                           | Easy     |
+| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/)                                                           | Medium     |
+| [LeetCode 9 Palindrome Number](https://muyangguo.xyz/Leetcode-9-Palindrome-Number/)                                                           | Easy     |
