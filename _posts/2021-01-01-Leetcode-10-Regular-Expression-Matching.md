@@ -9,7 +9,7 @@ tags: [Leetcode]
 comments: true
 ---
 
-<h2> 10. Regular Expression Matching- Hard  </h2>
+<h2> 10. Regular Expression Matching - Hard  </h2>
 
 [Go to Leetcode](https://leetcode.com/problems/regular-expression-matching/)
 
