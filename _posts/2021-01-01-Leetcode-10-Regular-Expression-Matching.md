@@ -1,6 +1,6 @@
 ---
 layout: leetcode-page
-title: "Leetcode 10 Regular Expression Matching- Hard"
+title: "Leetcode 10 Regular Expression Matching - Hard"
 date: 2021-01-01
 order: 10
 excerpt: ""
