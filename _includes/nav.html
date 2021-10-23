@@ -2,6 +2,10 @@
 
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button id="navbutton" class="dl-trigger">Open Menu</button>
+        <span>
+            <button id="overlaybutton" onclick="openNav()">"Stats"</button>  
+        </span>
+
 		<ul class="dl-menu">
 			<li><a href="{{ site.url }}/">Home</a></li>
 			<li>
@@ -111,31 +115,32 @@
         </ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
 
-<div class="sidenav">
-    <h1 > " MUYANG's SITE " </h1>
-    <hr class="hr-line">
-    <h1 > " SEARCH " </h1>
-    <h1 >
-    <script async src="https://cse.google.com/cse.js?cx=000703603923980589510:t0yhdcd_f-u"></script>
-    <div class="gcse-search"></div>
-    </h1>
-    <hr class="hr-line">
-    <h1 > " WEB STATS " </h1>
-    <!-- statistics -->
-    <h1 >
-    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5i5a5rwv7vf&amp;m=0c&amp;c=ff007e&amp;cr1=fff600&amp;f=times_new_roman&amp;l=49&amp;bv=85&amp;cw=ffffff&amp;cb=000000" async="async"></script>
-    </h1>
-    <hr class="hr-line">
-    <h1 > " Appreciate support if you like " </h1>
+<div id="overlayNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
 
-    <img src="{{ site.url }}/assets/img/venmome.png" alt="" class="img-small-square">
 
-    <hr class="hr-line">
-
+          <!-- statistics -->
+    <div >
+        <a class="marquee"> <span>你好</span></a>
+        <h2 class="marqueeReverse"> <span>Hello</span></h2>
+        <h2 class="marqueeReverse"> <span>안녕하세요 Bonjour</span></h2>
+        <h2 class="marquee"> <span>привет Hola</span></h2>
+        <h3 class="marqueeReverse"> <span>Namaste こんにちは Guten Tag</span></h3>
+        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5i5a5rwv7vf&amp;m=0c&amp;c=ff007e&amp;cr1=fff600&amp;f=times_new_roman&amp;l=49&amp;bv=85&amp;cw=ffffff&amp;cb=000000" async="async"></script>
+    </div>
+    </div>
     <div class="footer">
         © 2020 muyangguo.xyz
-      </div>
+    </div>
+  </div>
 
-
-</div>
-
+<script>
+    function openNav() {
+      document.getElementById("overlayNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("overlayNav").style.width = "0%";
+    }
+</script>
