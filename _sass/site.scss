@@ -253,6 +253,14 @@ header .entry-meta {
   display: block;
   transition: 0.3s;
 }
+.overlay h1 {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 32px;
+	color: white !important;
+	display: block;
+	transition: 0.3s;
+  }
 
 .overlay a:hover,
 .overlay a:focus {
