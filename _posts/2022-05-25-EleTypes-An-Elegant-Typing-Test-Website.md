@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EleTypes.com - An elegant typing test website created with react"
-date:   2020-12-25
+date:   2022-05-25
 excerpt: "As a keyboard lover, I love typing. Why don't I create a typing test tool and use my own tool XD"
 project: true
 tag:
@@ -40,7 +40,7 @@ Yep, Let's begin!
 
 ### Understand a good typing experience should be like 
 
-#### 1. random words generation
+#### 1. Random words generation
 
 There is a npm package called [random-words](https://www.npmjs.com/package/random-words) that we could use to generate a sequence of random words. 
 
@@ -87,7 +87,12 @@ typing test is an experience and should be aethetic pleasing. I picked a miniali
 
 ### Tech Stack
 
-This website is built purely in react. I only used libraries for style.
+This website is built purely frontend in react/HTML/CSS. I only used styling libraries for style.
+
+The most tricky part is to implement the "rewind and correct or move on" typing rule. For that I decided 
+to use an empheral dictionary to store the history inputs when a "word match" result is determined based on the status of previous word correct/incorrect result. And this dictionary hold the value in current input field. 
+
+Other details regards to the keymap, I disable the tab key, and implement a caps key lock detection. Spacebar is used to skip to next word, and trigger a match determination of the previous word, while clear the input field if the previous word is correct. 
 
 For a complete project codes please visit the github project repo @ [here](https://github.com/gamer-ai/eletype-frontend).
 
