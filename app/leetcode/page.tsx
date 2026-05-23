@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getPostsByKind } from '@/lib/content';
-import { LeetcodeTable, type Row } from '@/components/leetcode-table';
+import { DifficultyTable, type Row } from '@/components/leetcode-table';
 
 export const metadata: Metadata = {
   title: 'LeetCode',
@@ -11,7 +11,11 @@ export const metadata: Metadata = {
 
 const TITLE_RE = /^(LeetCode|LintCode|Leetcode|Lintcode)\s+(\d+)\s+(.+?)\s*-\s*(Easy|Medium|Hard)$/i;
 
-function parse(title: string, slug: string, order?: number): Row | null {
+interface ParsedRow extends Row {
+  source: 'LeetCode' | 'LintCode';
+}
+
+function parse(title: string, slug: string, order?: number): ParsedRow | null {
   const m = TITLE_RE.exec(title);
   if (m) {
     const src = m[1].toLowerCase();
@@ -23,7 +27,6 @@ function parse(title: string, slug: string, order?: number): Row | null {
       source: src.startsWith('lintcode') ? 'LintCode' : 'LeetCode',
     };
   }
-  // Fallback for the index / category posts
   if (typeof order === 'number' && order > 0) {
     return {
       num: order,
@@ -38,32 +41,28 @@ function parse(title: string, slug: string, order?: number): Row | null {
 
 export default function LeetcodePage() {
   const posts = getPostsByKind('leetcode');
-  const rows = posts
+  const allRows = posts
     .map((p) => parse(p.title, p.slug, p.order))
-    .filter((r): r is Row => r !== null && r.num > 0)
-    .sort((a, b) => {
-      if (a.source !== b.source) return a.source.localeCompare(b.source);
-      return a.num - b.num;
-    });
-  const indexPost = posts.find((p) => /index/i.test(p.title));
+    .filter((r): r is ParsedRow => r !== null && r.num > 0);
+
+  const leetRows = allRows.filter((r) => r.source === 'LeetCode').sort((a, b) => a.num - b.num);
+  const lintRows = allRows.filter((r) => r.source === 'LintCode').sort((a, b) => a.num - b.num);
 
   return (
-    <div className="space-y-6">
-      <header>
+    <div className="space-y-10">
+      <header className="space-y-3">
         <h1 className="text-3xl font-medium tracking-tight">LeetCode</h1>
+        <p className="text-sm text-muted">
+          Also see the{' '}
+          <Link href="/tags/algorithm-notes/" className="text-accent hover:underline">
+            algorithm study notes
+          </Link>{' '}
+          — theory + walkthroughs that pair with these problems.
+        </p>
       </header>
 
-      <LeetcodeTable rows={rows} />
-
-      {indexPost ? (
-        <p className="text-sm text-muted">
-          See the{' '}
-          <Link href={`/${indexPost.slug}/`} className="text-accent hover:underline">
-            category breakdown
-          </Link>{' '}
-          for problems grouped by topic.
-        </p>
-      ) : null}
+      <DifficultyTable title="LeetCode" rows={leetRows} />
+      <DifficultyTable title="LintCode" rows={lintRows} />
     </div>
   );
 }
