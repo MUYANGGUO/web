@@ -1,4 +1,28 @@
-
+# Jekyll (legacy — kept until cutover commit)
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+_site/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+public/pagefind/
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env*.local
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Agent / local tool state
+.claude/

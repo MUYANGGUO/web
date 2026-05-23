@@ -1,0 +1,210 @@
+@import 'katex/dist/katex.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ssense-white default light */
+  :root {
+    --bg: 0 0% 100%;
+    --fg: 0 0% 4%;
+    --muted: 0 0% 42%;
+    --subtle: 0 0% 96%;
+    --border: 0 0% 90%;
+    --card: 0 0% 100%;
+    --accent: 70 100% 60%;       /* acid lime #D7FF3D */
+    --accent-fg: 0 0% 4%;        /* black text on lime */
+    --hairline: 0 0% 88%;
+  }
+  /* cyberpunk-dark */
+  .dark {
+    --bg: 0 0% 4%;               /* near-black #0A0A0A */
+    --fg: 0 0% 96%;              /* off-white */
+    --muted: 0 0% 50%;
+    --subtle: 0 0% 8%;
+    --border: 0 0% 12%;          /* hairline */
+    --card: 0 0% 6%;             /* #0F0F0F */
+    --accent: 70 100% 60%;       /* acid lime */
+    --accent-fg: 0 0% 4%;
+    --hairline: 0 0% 14%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-bg text-fg font-sans;
+    font-feature-settings: 'ss01', 'cv11', 'cv02';
+  }
+  ::selection {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-fg));
+  }
+}
+
+@layer components {
+  /* uniform tile — hairline border, square-ish corners, no pillow */
+  .card {
+    @apply rounded-lg border border-border bg-card transition-colors duration-200;
+  }
+  .card:hover {
+    border-color: hsl(var(--fg) / 0.35);
+  }
+  .card-accent {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-fg));
+    border-color: transparent;
+  }
+  .card-accent:hover {
+    background: hsl(var(--accent) / 0.92);
+    border-color: transparent;
+  }
+
+  /* uppercase mono label — ssense signature */
+  .label {
+    @apply font-mono text-[10px] uppercase tracking-[0.18em] text-muted;
+  }
+  .label-fg {
+    @apply font-mono text-[10px] uppercase tracking-[0.18em] text-fg;
+  }
+  .label-accent {
+    color: hsl(var(--accent-fg));
+    @apply font-mono text-[10px] uppercase tracking-[0.18em];
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 border border-border px-2 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-fg;
+  }
+
+  .pill-btn {
+    @apply inline-flex items-center gap-1.5 border border-border bg-card px-4 py-2 font-mono text-[11px] uppercase tracking-[0.16em] transition-colors;
+  }
+  .pill-btn:hover {
+    background: hsl(var(--fg));
+    color: hsl(var(--bg));
+    border-color: hsl(var(--fg));
+  }
+  .pill-btn-accent {
+    background: hsl(var(--accent));
+    color: hsl(var(--accent-fg));
+    border-color: transparent;
+  }
+  .pill-btn-accent:hover {
+    background: hsl(var(--fg));
+    color: hsl(var(--bg));
+  }
+
+  .hairline {
+    background: hsl(var(--hairline));
+    height: 1px;
+  }
+}
+
+/* subtle grid + scanline noise on dark — cyberpunk hint, never gaudy */
+.dark body {
+  background-image:
+    linear-gradient(hsl(var(--hairline)) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--hairline)) 1px, transparent 1px);
+  background-size: 80px 80px, 80px 80px;
+  background-position: -1px -1px;
+  background-attachment: fixed;
+}
+
+/* prose */
+.prose-content {
+  @apply text-fg leading-relaxed;
+}
+.prose-content h1,
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
+  @apply font-sans tracking-tight;
+}
+.prose-content h2 {
+  @apply mt-14 mb-4 text-2xl font-medium border-b border-border pb-2;
+}
+.prose-content h3 {
+  @apply mt-10 mb-3 text-xl font-medium;
+}
+.prose-content h4 {
+  @apply mt-8 mb-2 text-lg font-medium;
+}
+.prose-content p {
+  @apply my-4;
+}
+.prose-content a {
+  @apply text-fg underline decoration-fg/30 underline-offset-4 transition-colors;
+}
+.prose-content a:hover {
+  color: hsl(var(--accent-fg));
+  background: hsl(var(--accent));
+  text-decoration-color: transparent;
+}
+.dark .prose-content a:hover {
+  color: hsl(var(--accent-fg));
+}
+.prose-content ul {
+  @apply my-4 list-disc pl-6;
+}
+.prose-content ol {
+  @apply my-4 list-decimal pl-6;
+}
+.prose-content li {
+  @apply my-1;
+}
+.prose-content blockquote {
+  @apply my-6 border-l-2 pl-4 italic text-muted;
+  border-color: hsl(var(--accent));
+}
+.prose-content table {
+  @apply my-6 w-full border-collapse text-sm;
+}
+.prose-content th,
+.prose-content td {
+  @apply border border-border px-3 py-2 text-left;
+}
+.prose-content th {
+  @apply bg-subtle font-medium uppercase tracking-wider text-xs;
+}
+.prose-content img {
+  @apply my-6 max-w-full border border-border;
+}
+.prose-content figure {
+  @apply my-6;
+}
+.prose-content figcaption {
+  @apply mt-2 text-center font-mono text-[11px] uppercase tracking-wider text-muted;
+}
+.prose-content pre {
+  @apply my-6 overflow-x-auto border border-border bg-subtle p-4 text-sm leading-6;
+}
+.prose-content code {
+  @apply border border-border/60 bg-subtle px-1.5 py-0.5 text-[0.875em] font-mono;
+}
+.prose-content pre code {
+  @apply border-0 bg-transparent p-0;
+}
+.prose-content hr {
+  @apply my-12 border-border;
+}
+
+html.dark .prose-content [data-theme='light'],
+html:not(.dark) .prose-content [data-theme='dark'] {
+  display: none;
+}
+
+.heading-anchor {
+  @apply text-fg no-underline;
+}
+.heading-anchor:hover {
+  text-decoration-color: transparent;
+}
+.katex-display {
+  @apply my-6 overflow-x-auto overflow-y-hidden py-2;
+}
