@@ -133,7 +133,7 @@ In app.js line 75.
 <img src="https://raw.githubusercontent.com/MUYANGGUO/Simulation-DES/master/outputs/Events_Poisson.png" width="200" height="200">
 </p> -->
 The poisson distribution random genrator can be referred to my blog here which verifies our poisson generators outputs. <br>
-[My Poisson Distribution Generator and verification histograms](https://muyangguo.xyz/poisson-distribution/)
+[My Poisson Distribution Generator and verification histograms](/poisson-distribution/)
 
 **2. Initial Arrival Timestamps for actors**
 <p align="center">

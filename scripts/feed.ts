@@ -10,7 +10,7 @@ const ROOT = process.cwd();
 const CONTENT = path.join(ROOT, 'content', 'posts');
 const OUT = path.join(ROOT, 'out', 'feed.xml');
 
-const SITE_URL = 'https://muyangguo.xyz';
+const SITE_URL = 'https://muyangguo.com';
 const SITE_TITLE = 'Muyang Guo';
 const SITE_DESC =
   'Muyang acquired M.S. in Computational Science & Engineering and B.S./M.S. in Mechanical Engineering from Georgia Tech.';

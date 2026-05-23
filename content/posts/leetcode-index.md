@@ -25,17 +25,17 @@ comments: true
 
 | Problems                                                                                                                                      | Difficulty |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
-| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/)                                                                | Medium     |
-| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
-| [LeetCode 4 Median of Two Sorted Arrays](https://muyangguo.xyz/Leetcode-4-Median-Of-Two-Sorted-Arrays/)                                       | Hard       |
-| [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/)                                   | Medium     |
-| [LeetCode 6 ZigZag Conversion](https://muyangguo.xyz/Leetcode-6-ZigZag-Conversion/)                                                           | Medium     |
-| [LeetCode 7 Reverse Integer](https://muyangguo.xyz/Leetcode-7-Reverse-Integer/)                                                               | Easy       |
-| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/)                                              | Medium     |
-| [LeetCode 9 Palindrome Number](https://muyangguo.xyz/Leetcode-9-Palindrome-Number/)                                                           | Easy       |
-| [LeetCode 10 Regular Expression Matching](https://muyangguo.xyz/Leetcode-10-Regular-Expression-Matching/)                                     | Hard       |
-| [LeetCode 11 Container With Most Water](https://muyangguo.xyz/Leetcode-11-Container-With-Most-Water/)                                     | Medium       |
+| [LeetCode 1 Two Sum](/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 2 Add Two Numbers](/leetcode-2-add-two-numbers/)                                                                | Medium     |
+| [LeetCode 3 Longest Substring Without Repeating Characters](/leetcode-3-longest-substring-without-repeating-characters/) | Medium     |
+| [LeetCode 4 Median of Two Sorted Arrays](/leetcode-4-median-of-two-sorted-arrays/)                                       | Hard       |
+| [LeetCode 5 Longest Palindromic Substring](/leetcode-5-longest-palindromic-substring/)                                   | Medium     |
+| [LeetCode 6 ZigZag Conversion](/leetcode-6-zigzag-conversion/)                                                           | Medium     |
+| [LeetCode 7 Reverse Integer](/leetcode-7-reverse-integer/)                                                               | Easy       |
+| [LeetCode 8 String to Integer (atoi)](/leetcode-8-string-to-integer(atoi)/)                                              | Medium     |
+| [LeetCode 9 Palindrome Number](/leetcode-9-palindrome-number/)                                                           | Easy       |
+| [LeetCode 10 Regular Expression Matching](/leetcode-10-regular-expression-matching/)                                     | Hard       |
+| [LeetCode 11 Container With Most Water](/leetcode-11-container-with-most-water/)                                     | Medium       |
 
 --- 
 
@@ -43,16 +43,16 @@ comments: true
 
 | Problems                                                                                         | Difficulty |
 | :----------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 6 ZigZag Conversion](https://muyangguo.xyz/Leetcode-6-ZigZag-Conversion/)              | Medium     |
-| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/) | Medium     |
+| [LeetCode 6 ZigZag Conversion](/leetcode-6-zigzag-conversion/)              | Medium     |
+| [LeetCode 8 String to Integer (atoi)](/leetcode-8-string-to-integer(atoi)/) | Medium     |
 
 ---
 ### Category - Hashmap
 
 | Problems                                                                                                                                      | Difficulty |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
-| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
+| [LeetCode 1 Two Sum](/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 3 Longest Substring Without Repeating Characters](/leetcode-3-longest-substring-without-repeating-characters/) | Medium     |
 
 
 ---
@@ -61,16 +61,16 @@ comments: true
 
 | Problems                                                                       | Difficulty |
 | :----------------------------------------------------------------------------- | :--------- |
-| [LeetCode 2 Add Two Numbers](http://muyangguo.xyz/Leetcode-2-Add-Two-Numbers/) | Medium     |
+| [LeetCode 2 Add Two Numbers](/leetcode-2-add-two-numbers/) | Medium     |
 
 ---
 ### Category - Two Pointers
 
 | Problems                                                                                                                                      | Difficulty |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 1 Two Sum](https://muyangguo.xyz/leetcode-1-two-sum/)                                                                               | Easy       |
-| [LeetCode 3 Longest Substring Without Repeating Characters](https://muyangguo.xyz/Leetcode-3-Longest-Substring-Without-Repeating-Characters/) | Medium     |
-| [LeetCode 11 Container With Most Water](https://muyangguo.xyz/Leetcode-11-Container-With-Most-Water/) | Medium     |
+| [LeetCode 1 Two Sum](/leetcode-1-two-sum/)                                                                               | Easy       |
+| [LeetCode 3 Longest Substring Without Repeating Characters](/leetcode-3-longest-substring-without-repeating-characters/) | Medium     |
+| [LeetCode 11 Container With Most Water](/leetcode-11-container-with-most-water/) | Medium     |
 
 ---
 
@@ -78,15 +78,15 @@ comments: true
 
 | Problems                                                                                                | Difficulty |
 | :------------------------------------------------------------------------------------------------------ | :--------- |
-| [LeetCode 4 Median of Two Sorted Arrays](https://muyangguo.xyz/Leetcode-4-Median-Of-Two-Sorted-Arrays/) | Hard       |
+| [LeetCode 4 Median of Two Sorted Arrays](/leetcode-4-median-of-two-sorted-arrays/) | Hard       |
 
 ---
 ### Category - Dynamic Programming (DP)
 
 | Problems                                                                                                    | Difficulty |
 | :---------------------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 5 Longest Palindromic Substring](https://muyangguo.xyz/Leetcode-5-Longest-Palindromic-Substring/) | Medium     |
-| [LeetCode 10 Regular Expression Matching](https://muyangguo.xyz/Leetcode-10-Regular-Expression-Matching/)   | Hard       |
+| [LeetCode 5 Longest Palindromic Substring](/leetcode-5-longest-palindromic-substring/) | Medium     |
+| [LeetCode 10 Regular Expression Matching](/leetcode-10-regular-expression-matching/)   | Hard       |
 
 ---
 
@@ -94,6 +94,6 @@ comments: true
 
 | Problems                                                                                         | Difficulty |
 | :----------------------------------------------------------------------------------------------- | :--------- |
-| [LeetCode 7 Reverse Integer](https://muyangguo.xyz/Leetcode-7-Reverse-Integer/)                  | Easy       |
-| [LeetCode 8 String to Integer (atoi)](https://muyangguo.xyz/Leetcode-8-String-To-Integer(atoi)/) | Medium     |
-| [LeetCode 9 Palindrome Number](https://muyangguo.xyz/Leetcode-9-Palindrome-Number/)              | Easy       |
+| [LeetCode 7 Reverse Integer](/leetcode-7-reverse-integer/)                  | Easy       |
+| [LeetCode 8 String to Integer (atoi)](/leetcode-8-string-to-integer(atoi)/) | Medium     |
+| [LeetCode 9 Palindrome Number](/leetcode-9-palindrome-number/)              | Easy       |

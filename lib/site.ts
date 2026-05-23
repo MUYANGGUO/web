@@ -1,5 +1,5 @@
 export const site = {
-  url: 'https://muyangguo.xyz',
+  url: 'https://muyangguo.com',
   title: 'Muyang Guo',
   name: 'Muyang Guo',
   description:

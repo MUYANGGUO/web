@@ -1,6 +1,6 @@
-# muyangguo.xyz
+# muyangguo.com
 
-Personal blog and portfolio of Muyang Guo. Built with Next.js 16 (static export) and deployed to Netlify.
+Personal blog and portfolio of Muyang Guo. Built with Next.js 16 (static export) and deployed via Cloudflare Pages.
 
 ## Stack
 

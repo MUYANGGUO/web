@@ -912,7 +912,7 @@ Approach:
 
 # DES traffic simulation project <a name="project"></a>
 
-[Muyang's Project](https://muyangguo.xyz/des-simulation-project/)
+[Muyang's Project](/des-simulation-project/)
 
 [Back to Table of Content](#index)
 
