@@ -3,10 +3,9 @@ export const site = {
   title: 'Muyang Guo',
   name: 'Muyang Guo',
   description:
-    'Muyang acquired M.S. in Computational Science & Engineering and B.S./M.S. in Mechanical Engineering from Georgia Tech.',
-  bio: 'M.S. CSE & ME, B.S. ME — Georgia Tech',
+    'Muyang acquired M.S. in Computational Science & Engineering and B.S./M.S. in Mechanical Engineering from Georgia Tech. Now a senior software engineer in the Bay Area.',
+  bio: 'Ex-Uber ATG, ex-Siemens. Senior SWE, Bay Area.',
   author: 'Muyang Guo',
-  email: 'terry.trxue@gmail.com',
   avatar: '/img/avatar.png',
   social: {
     github: 'MUYANGGUO',

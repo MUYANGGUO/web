@@ -23,6 +23,7 @@ export interface Frontmatter {
   tags: string[];
   order?: number;
   comments?: boolean;
+  lastUpdated?: string;
 }
 
 export interface Post extends Frontmatter {
@@ -55,6 +56,12 @@ export function getAllPosts(): Post[] {
       tags: fm.tags ?? [],
       order: fm.order,
       comments: fm.comments,
+      lastUpdated:
+        typeof fm.lastUpdated === 'string'
+          ? fm.lastUpdated
+          : fm.lastUpdated
+            ? new Date(fm.lastUpdated as unknown as string).toISOString().slice(0, 10)
+            : undefined,
       body: content,
       readingMinutes: Math.max(1, Math.round(words / 200)),
     };

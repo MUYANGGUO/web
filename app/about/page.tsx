@@ -96,7 +96,7 @@ export default function AboutPage() {
           </li>
           <li>
             <strong>Honorable mention</strong>,{' '}
-            <a href="https://globalhealth.emory.edu/students/hackathon/index.html">2021 EGHI/GT HACK COVID-19</a>{' '}
+            <a href="https://globalhealth.emory.edu/students/hackathon/index.html">2021 EGHI&rsquo;s Global Health Hackathon</a>{' '}
             ($1,500) — WHYbrary, an automated knowledge-extraction platform for organizational comms.
           </li>
         </ul>

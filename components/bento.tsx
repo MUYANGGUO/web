@@ -21,17 +21,13 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
   return (
     <section className="grid grid-cols-1 gap-px bg-border md:grid-cols-6 md:auto-rows-[minmax(160px,auto)] border border-border">
       {/* Hero — span 4x2 */}
-      <Tile className="md:col-span-4 md:row-span-2 flex flex-col justify-between p-6 md:p-8">
+      <Tile
+        className="md:col-span-4 md:row-span-2 flex flex-col justify-between p-6 md:p-8 border-l-2"
+        style={{ borderLeftColor: '#b026ff' }}
+      >
         <div className="flex items-start justify-between gap-6">
           <div className="flex-1">
-            <p className="label-fg inline-flex items-center gap-2">
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-70" />
-                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-              </span>
-              Available · 2026
-            </p>
-            <h1 className="mt-5 text-[2.2rem] font-medium leading-[1.05] tracking-tight md:text-[3rem]">
+            <h1 className="text-[2.2rem] font-medium leading-[1.05] tracking-tight md:text-[3rem]">
               {site.name}
             </h1>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-muted md:text-[15px]">
@@ -102,9 +98,9 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
         </TileLink>
       ) : null}
 
-      {/* Awards */}
+      {/* Awards — college era */}
       <Tile className="md:col-span-2 flex flex-col gap-3 p-5">
-        <p className="label">Awards</p>
+        <p className="label">Recognition</p>
         <ul className="space-y-3 text-[13px] leading-relaxed">
           <li>
             <span className="font-medium">1st place</span>{' '}
@@ -112,7 +108,7 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
           </li>
           <li>
             <span className="font-medium">Honorable mention</span>{' '}
-            <span className="text-muted">— EGHI/GT HACK COVID-19.</span>
+            <span className="text-muted">— EGHI&rsquo;s Global Health Hackathon, 2021.</span>
           </li>
         </ul>
       </Tile>
@@ -164,9 +160,14 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
 interface TileProps {
   className?: string;
   children: React.ReactNode;
+  style?: React.CSSProperties;
 }
-function Tile({ className, children }: TileProps) {
-  return <div className={cn('bg-card', className)}>{children}</div>;
+function Tile({ className, children, style }: TileProps) {
+  return (
+    <div className={cn('bg-card', className)} style={style}>
+      {children}
+    </div>
+  );
 }
 
 interface TileLinkProps extends TileProps {

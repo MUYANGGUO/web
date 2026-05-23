@@ -9,8 +9,11 @@ export default async function HomePage() {
   const blog = getBlogPosts();
   const projects = getPostsByKind('project');
   const photos = await getAllPhotos();
-  const latestPost = blog[0];
-  const featuredProject = projects.find((p) => p.slug === 'threejs-react-cyber-leetcode') ?? projects[0];
+  const latestPost = blog.find((p) => p.slug === 'keyboardlab') ?? blog[0];
+  const featuredProject =
+    projects.find((p) => p.slug === 'eletypes-four-years-later') ??
+    projects.find((p) => p.slug === 'threejs-react-cyber-leetcode') ??
+    projects[0];
 
   return (
     <div className="space-y-12">

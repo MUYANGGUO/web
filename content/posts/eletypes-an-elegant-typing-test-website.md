@@ -1,6 +1,7 @@
 ---
 title: "EleTypes.com - An elegant typing test website created with react"
 date: "2022-05-25"
+lastUpdated: "2026-05-23"
 excerpt: "As a keyboard lover, I love typing. Why don't I create a typing test tool and use my own tool XD"
 kind: project
 tags:
@@ -8,8 +9,11 @@ tags:
   - React
 comments: true
 ---
+
+> **2022 build journal.** The project has grown a lot since this was written — see [Eletypes, four years later](/eletypes-four-years-later/) for the 2026 retrospective, or the [Keyboardlab](/keyboardlab/) deep-dive for the 3D keyboard designer that grew out of it.
+
 <figure>
-	<a href="https://eletypes.com"><img src="https://user-images.githubusercontent.com/39578778/187084111-97d69aa7-53e4-46b9-b156-3ecc4d180d08.png" alt="Eletypes screenshot"></a>
+	<a href="https://eletypes.com"><img src="/img/posts/eletypes-hero.png" alt="Eletypes screenshot"></a>
 </figure>
 
 
@@ -93,6 +97,8 @@ For a complete project codes please visit the github project repo @ [here](https
 ### Next step:
 
 I would like to add some 3D WebGL component for displaying more stats. For example, a heat map of the keystrokes mapped to the keyboard layout, animated typing stats curves etc. More to come, if I have time lol.
+
+*↳ I did this, and then some. The 3D side eventually became [Keyboardlab](/keyboardlab/) — an in-browser 3D keyboard designer.*
 
 ---
 Copyright 2022 Muyang Guo

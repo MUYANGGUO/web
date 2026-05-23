@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { site } from '@/lib/site';
 
 export function Footer() {
@@ -26,9 +25,6 @@ export function Footer() {
           >
             youtube
           </a>
-          <Link href="/feed.xml" className="text-muted hover:text-fg">
-            rss
-          </Link>
         </div>
       </div>
     </footer>

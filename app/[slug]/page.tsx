@@ -67,6 +67,14 @@ export default async function PostPage({ params }: { params: Promise<Params> }) 
         {post.excerpt ? <p className="mt-3 text-muted">{post.excerpt}</p> : null}
         <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-muted">
           <time dateTime={post.date}>{formatDate(post.date)}</time>
+          {post.lastUpdated && post.lastUpdated !== post.date ? (
+            <>
+              <span>·</span>
+              <span className="font-mono uppercase tracking-wider text-fg/70">
+                Updated <time dateTime={post.lastUpdated}>{formatDate(post.lastUpdated)}</time>
+              </span>
+            </>
+          ) : null}
           <span>·</span>
           <span>{post.readingMinutes} min read</span>
           {post.tags.length > 0 ? (
