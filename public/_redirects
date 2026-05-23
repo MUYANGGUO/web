@@ -1,12 +1,5 @@
-# Legacy Jekyll feed → Atom feed at new path (same URL preserved)
-# Old Disqus/GA tags continue to fire on this domain unchanged.
-
-# Old "All Posts" entry pages
-/posts/index.html         /posts/   301
+# Old Jekyll-generated /index.html entry pages → clean URLs
+/posts/index.html         /posts/      301
 /leetcode/index.html      /leetcode/   301
 /projects/index.html      /projects/   301
-/about/index.html         /about/   301
-
-# Case-insensitive fallthrough for old hand-written links in the leetcode index
-# (Netlify is case-insensitive by default; these are belt-and-braces.)
-/Leetcode-*               /:splat   301!
+/about/index.html         /about/      301
