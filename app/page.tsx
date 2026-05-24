@@ -10,16 +10,26 @@ export default async function HomePage() {
   const projects = getPostsByKind('project');
   const photos = await getAllPhotos();
   const latestPost = blog.find((p) => p.slug === 'keyboardlab') ?? blog[0];
-  const featuredProject =
-    projects.find((p) => p.slug === 'eletypes-four-years-later') ??
-    projects.find((p) => p.slug === 'threejs-react-cyber-leetcode') ??
-    projects[0];
+  const featuredSlugs = [
+    'shadowclaw-your-ai-agents-in-your-pocket',
+    'eletypes-four-years-later',
+    'threejs-react-cyber-leetcode',
+  ];
+  const featuredProjects = featuredSlugs
+    .map((slug) => projects.find((p) => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p))
+    .slice(0, 2);
+  if (featuredProjects.length === 0 && projects[0]) featuredProjects.push(projects[0]);
+
+  // Hide anything already shown in the Bento (latest post + featured projects)
+  const shownSlugs = new Set<string>([latestPost?.slug, ...featuredProjects.map((p) => p.slug)].filter(Boolean) as string[]);
+  const recent = blog.filter((p) => !shownSlugs.has(p.slug)).slice(0, 4);
 
   return (
     <div className="space-y-12">
       <Bento
         latestPost={latestPost}
-        featuredProject={featuredProject}
+        featuredProjects={featuredProjects}
         postCount={blog.length}
         projectCount={projects.length}
         photo={photos[0]}
@@ -34,7 +44,7 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="grid gap-px bg-border md:grid-cols-2 border border-border">
-          {blog.slice(0, 4).map((p) => (
+          {recent.map((p) => (
             <PostCard key={p.slug} post={p} />
           ))}
         </div>

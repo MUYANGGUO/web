@@ -233,6 +233,79 @@
 .prose-content pre code {
   @apply border-0 bg-transparent p-0;
 }
+
+/* shiki / rehype-pretty-code dual-theme tokens
+   each token span carries inline `--shiki-light` and `--shiki-dark`;
+   pick the right one based on the active theme. */
+html:not(.dark) .prose-content pre code span {
+  color: var(--shiki-light);
+}
+html.dark .prose-content pre code span {
+  color: var(--shiki-dark);
+}
+.prose-content figure[data-rehype-pretty-code-figure] {
+  @apply my-6;
+}
+.prose-content figure[data-rehype-pretty-code-figure] pre {
+  @apply my-0;
+}
+.prose-content [data-rehype-pretty-code-title] {
+  @apply border border-b-0 border-border bg-subtle px-4 py-2 font-mono text-[11px] uppercase tracking-wider text-muted;
+}
+.prose-content [data-highlighted-line] {
+  background: hsl(var(--accent) / 0.12);
+  @apply -mx-4 px-4;
+}
+.prose-content code[data-line-numbers] {
+  counter-reset: line;
+}
+.prose-content code[data-line-numbers] > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+  @apply mr-4 inline-block w-4 text-right text-muted;
+}
+.prose-content code [data-highlighted-chars] {
+  background: hsl(var(--accent) / 0.18);
+  @apply rounded-sm px-0.5;
+}
+
+/* shiki / rehype-pretty-code dual-theme tokens
+   each token span carries inline `--shiki-light` and `--shiki-dark`;
+   pick the right one based on the active theme. */
+html:not(.dark) .prose-content pre code span {
+  color: var(--shiki-light);
+}
+html.dark .prose-content pre code span {
+  color: var(--shiki-dark);
+}
+.prose-content figure[data-rehype-pretty-code-figure] {
+  @apply my-6;
+}
+.prose-content figure[data-rehype-pretty-code-figure] pre {
+  @apply my-0;
+}
+.prose-content [data-rehype-pretty-code-title] {
+  @apply border border-b-0 border-border bg-subtle px-4 py-2 font-mono text-[11px] uppercase tracking-wider text-muted;
+}
+.prose-content [data-line] {
+  @apply px-0;
+}
+.prose-content [data-highlighted-line] {
+  background: hsl(var(--accent) / 0.12);
+  @apply -mx-4 px-4;
+}
+.prose-content code[data-line-numbers] {
+  counter-reset: line;
+}
+.prose-content code[data-line-numbers] > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+  @apply mr-4 inline-block w-4 text-right text-muted;
+}
+.prose-content code [data-highlighted-chars] {
+  background: hsl(var(--accent) / 0.18);
+  @apply rounded-sm px-0.5;
+}
 .prose-content hr {
   @apply my-12 border-border;
 }

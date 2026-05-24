@@ -10,14 +10,22 @@ import { AvatarLightbox } from './avatar-lightbox';
 
 interface Props {
   latestPost: Post | undefined;
-  featuredProject: Post | undefined;
+  featuredProjects: Post[];
   postCount: number;
   projectCount: number;
   photo?: Photo;
   photoCount: number;
 }
 
-export function Bento({ latestPost, featuredProject, postCount, projectCount, photo, photoCount }: Props) {
+// Per-tile short titles to keep narrow Bento tiles from wrapping awkwardly.
+const BENTO_SHORT_TITLES: Record<string, string> = {
+  'eletypes-four-years-later': 'EleTypes.com',
+};
+function bentoShortTitle(post: Post): string {
+  return BENTO_SHORT_TITLES[post.slug] ?? post.title;
+}
+
+export function Bento({ latestPost, featuredProjects, postCount, projectCount, photo, photoCount }: Props) {
   return (
     <section className="grid grid-cols-1 gap-px bg-border md:grid-cols-6 md:auto-rows-[minmax(160px,auto)] border border-border">
       {/* Hero — span 4x2 */}
@@ -79,26 +87,7 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
         </TileLink>
       ) : null}
 
-      {/* Featured project */}
-      {featuredProject ? (
-        <TileLink href={`/${featuredProject.slug}/`} className="md:col-span-4 group flex flex-col justify-between p-6">
-          <div>
-            <div className="flex items-center justify-between">
-              <span className="label">Featured / Project</span>
-              <ArrowUpRight className="h-4 w-4 text-muted transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-fg" />
-            </div>
-            <h3 className="mt-4 max-w-xl text-[1.4rem] font-medium leading-tight tracking-tight md:text-[1.6rem]">
-              {featuredProject.title}
-            </h3>
-            {featuredProject.excerpt ? (
-              <p className="mt-3 line-clamp-2 max-w-xl text-sm text-muted">{featuredProject.excerpt}</p>
-            ) : null}
-          </div>
-          <p className="mt-6 label">{formatDate(featuredProject.date)}</p>
-        </TileLink>
-      ) : null}
-
-      {/* Awards — college era */}
+      {/* Awards — college era (placed early so it docks next to Latest Post, directly under Social) */}
       <Tile className="md:col-span-2 flex flex-col gap-3 p-5">
         <p className="label">Recognition</p>
         <ul className="space-y-3 text-[13px] leading-relaxed">
@@ -112,6 +101,44 @@ export function Bento({ latestPost, featuredProject, postCount, projectCount, ph
           </li>
         </ul>
       </Tile>
+
+      {/* Featured project — primary (large) */}
+      {featuredProjects[0] ? (
+        <TileLink href={`/${featuredProjects[0].slug}/`} className="md:col-span-4 group flex flex-col justify-between p-6">
+          <div>
+            <div className="flex items-center justify-between">
+              <span className="label">Featured / Project</span>
+              <ArrowUpRight className="h-4 w-4 text-muted transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-fg" />
+            </div>
+            <h3 className="mt-4 min-h-[2lh] max-w-xl text-[1.4rem] font-medium leading-tight tracking-tight md:text-[1.6rem]">
+              {featuredProjects[0].title}
+            </h3>
+            {featuredProjects[0].excerpt ? (
+              <p className="mt-1 line-clamp-2 max-w-xl text-sm text-muted">{featuredProjects[0].excerpt}</p>
+            ) : null}
+          </div>
+          <p className="mt-6 label">{formatDate(featuredProjects[0].date)}</p>
+        </TileLink>
+      ) : null}
+
+      {/* Featured project — secondary (narrower col-span-2, but matches primary typography) */}
+      {featuredProjects[1] ? (
+        <TileLink href={`/${featuredProjects[1].slug}/`} className="md:col-span-2 group flex flex-col justify-between p-6">
+          <div>
+            <div className="flex items-center justify-between">
+              <span className="label">Featured / Project</span>
+              <ArrowUpRight className="h-4 w-4 text-muted transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-fg" />
+            </div>
+            <h3 className="mt-4 min-h-[2lh] text-[1.4rem] font-medium leading-tight tracking-tight md:text-[1.6rem]">
+              {bentoShortTitle(featuredProjects[1])}
+            </h3>
+            {featuredProjects[1].excerpt ? (
+              <p className="mt-1 line-clamp-2 text-sm text-muted">{featuredProjects[1].excerpt}</p>
+            ) : null}
+          </div>
+          <p className="mt-6 label">{formatDate(featuredProjects[1].date)}</p>
+        </TileLink>
+      ) : null}
 
       {/* Photography teaser */}
       {photo ? (
