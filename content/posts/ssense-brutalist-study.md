@@ -227,7 +227,6 @@ comments: true
 <article class="axis-card"><span class="micro accent">C / 时装派</span><h3>Balenciaga</h3><p>奢侈粗野主义<br><span class="muted">把“廉价网页语法”反转为高级感</span></p></article>
 <article class="axis-card ssense-card"><span class="micro">D / 编辑派</span><h3>SSENSE</h3><p>编辑式粗野主义<br><span>奢侈电商标杆</span></p></article>
 </div>
-</div>
 </section>
 
 <section class="section" id="s05">
